@@ -1,0 +1,1502 @@
+[
+  {
+    "id": 1,
+    "domain": "clinical_care",
+    "front": "How do you open a counselling station?",
+    "back": "Introduce yourself and your role, confirm the patient's name and date of birth, and state the purpose of the conversation. Ask what the patient already knows about the medication or problem before giving information. This sets the tone and shows the assessor you check understanding first instead of lecturing."
+  },
+  {
+    "id": 2,
+    "domain": "clinical_care",
+    "front": "How do you close a counselling station?",
+    "back": "Summarize the key points in plain language, confirm with teach-back that the patient can repeat them back correctly, and ask if they have any remaining questions. Offer a follow-up plan such as a callback or a note to the prescriber if a problem was found. End by thanking the patient and stating how to reach the pharmacy."
+  },
+  {
+    "id": 3,
+    "domain": "clinical_care",
+    "front": "What is the teach-back technique?",
+    "back": "After explaining a point, ask the patient to repeat it in their own words rather than asking a yes or no question like Does that make sense. This confirms real understanding instead of polite agreement. If the patient's answer is incomplete, rephrase and check again before moving on."
+  },
+  {
+    "id": 4,
+    "domain": "clinical_care",
+    "front": "PAM checklist for opening a medication check",
+    "back": "Confirm Patient identity, Allergies, and Medical history before discussing any drug. Missing this step is a common way candidates lose marks even when the clinical content given later is correct. Always ask about allergies even if the chart already lists them, since the chart can be wrong or outdated."
+  },
+  {
+    "id": 5,
+    "domain": "clinical_care",
+    "front": "SOAP note structure for a station writeup",
+    "back": "Subjective is what the patient reports in their own words. Objective is measurable data such as vitals, labs, or refill history. Assessment is your clinical judgment and the drug therapy problem identified. Plan is the specific recommendation, who you will contact, and the follow-up timeline."
+  },
+  {
+    "id": 6,
+    "domain": "clinical_care",
+    "front": "What does an empathy statement sound like in a station?",
+    "back": "Name the emotion you observe and validate it before moving to information, for example That sounds frustrating, or I can see why that would worry you. This should come before problem solving, not after, because patients disengage from instructions given while still upset. A short pause after the statement lets the patient respond."
+  },
+  {
+    "id": 7,
+    "domain": "clinical_care",
+    "front": "When should confidentiality be mentioned in a station?",
+    "back": "State it whenever a third party is present, such as a caregiver or family member, or when discussing sensitive topics like mental health or sexual health. A simple line is I want to confirm you're comfortable discussing this with your daughter in the room. Document who consented to be present if the station calls for a note."
+  },
+  {
+    "id": 8,
+    "domain": "clinical_care",
+    "front": "How do you handle an angry or upset standardized patient?",
+    "back": "Let them finish speaking without interrupting, reflect back what you heard, and avoid getting defensive even if the complaint targets the pharmacy. Focus on what you can control right now, such as fixing the immediate problem or escalating it. Assessors score de-escalation skill separately from clinical accuracy."
+  },
+  {
+    "id": 9,
+    "domain": "clinical_care",
+    "front": "How should time be managed in a 7-minute station?",
+    "back": "Spend roughly two minutes gathering information, three minutes working through the clinical reasoning and delivering your recommendation, and the last two minutes confirming the patient understands and closing. These numbers are a rough guide, not a rigid rule, since some stations lean more toward gathering and others more toward counselling. A rushed non-close still costs marks."
+  },
+  {
+    "id": 10,
+    "domain": "clinical_care",
+    "front": "Which non-verbal habits matter most in an OSCE station?",
+    "back": "Maintain eye contact, face the patient rather than the chart, and nod or use short verbal acknowledgments while they speak. Avoid reading instructions off a paper the entire time, since this reads as scripted rather than patient centered. Sit or stand at the same level as the patient when possible."
+  },
+  {
+    "id": 11,
+    "domain": "clinical_care",
+    "front": "The 7 Drug Therapy Problem categories, quick overview",
+    "back": "Unnecessary drug therapy, needs additional drug therapy, ineffective drug, dosage too low, adverse drug reaction, dosage too high, and non-adherence. Every DTP a candidate identifies in a station should map to exactly one of these seven labels. State the category explicitly in your written assessment, not just the clinical detail."
+  },
+  {
+    "id": 12,
+    "domain": "clinical_care",
+    "front": "DTP: Unnecessary drug therapy, one-line cue",
+    "back": "The patient is taking a drug with no valid indication, a duplicate therapy, or a drug for a condition that has resolved. Cue phrase: why is this still on the list. The fix is usually deprescribing or confirming with the prescriber that continued use is intentional."
+  },
+  {
+    "id": 13,
+    "domain": "clinical_care",
+    "front": "DTP: Needs additional drug therapy, one-line cue",
+    "back": "A medical condition is present with no drug treating it, or a preventive therapy is missing such as a bone protection agent with long-term steroids. Cue phrase: something is untreated. The fix is recommending initiation of appropriate therapy to the prescriber."
+  },
+  {
+    "id": 14,
+    "domain": "clinical_care",
+    "front": "DTP: Ineffective drug, one-line cue",
+    "back": "The correct condition is being treated but the chosen drug is not producing the expected clinical response, or a more effective option exists for this patient. Cue phrase: wrong drug for the job. The fix is switching to a more appropriate agent rather than simply raising the dose."
+  },
+  {
+    "id": 15,
+    "domain": "clinical_care",
+    "front": "DTP: Dosage too low, one-line cue",
+    "back": "The drug and indication are correct but the dose, frequency, or duration is insufficient to reach the therapeutic target. Cue phrase: right drug, not enough of it. Confirm with objective data such as a lab value or symptom score still outside target before recommending an increase."
+  },
+  {
+    "id": 16,
+    "domain": "clinical_care",
+    "front": "DTP: Adverse drug reaction, one-line cue",
+    "back": "The patient is experiencing an undesirable effect caused by the drug itself, including allergy, side effect, or drug interaction. Cue phrase: the drug is causing harm. Document the reaction, assess severity, and recommend discontinuation, dose adjustment, or an alternative agent as appropriate."
+  },
+  {
+    "id": 17,
+    "domain": "clinical_care",
+    "front": "DTP: Dosage too high, one-line cue",
+    "back": "The dose, frequency, duration, or route is producing toxicity or exceeds what the patient needs, often relevant in renal or hepatic impairment. Cue phrase: too much of the right drug. This differs from an adverse drug reaction because the problem is specifically the dose, not an inherent property of the drug."
+  },
+  {
+    "id": 18,
+    "domain": "clinical_care",
+    "front": "DTP: Non-adherence, one-line cue",
+    "back": "The patient is not taking the drug as prescribed, whether from cost, forgetfulness, side effects, health beliefs, or complex regimens. Cue phrase: the patient isn't taking it as written. Always ask why before assuming the cause, since the fix depends entirely on the specific barrier identified."
+  },
+  {
+    "id": 19,
+    "domain": "clinical_care",
+    "front": "Warfarin counselling key points",
+    "back": "Explain that dose is individualized and requires regular INR blood tests, usually more frequent at the start of therapy. Cover consistent vitamin K intake rather than avoidance, since sudden changes in leafy green vegetable intake swing the INR. Warn about bleeding signs and drug and alcohol interactions, and stress that missed or doubled doses must be reported rather than self-corrected."
+  },
+  {
+    "id": 20,
+    "domain": "clinical_care",
+    "front": "Warfarin and vitamin K, what do you actually tell the patient?",
+    "back": "The goal is consistency, not elimination, of vitamin K rich foods like spinach, kale, and broccoli. A sudden large increase or decrease in intake can lower or raise the INR unpredictably. Advise the patient to keep their usual diet pattern and mention any major dietary change to the anticoagulation clinic."
+  },
+  {
+    "id": 21,
+    "domain": "clinical_care",
+    "front": "DOAC counselling (apixaban, rivaroxaban, dabigatran)",
+    "back": "No routine blood monitoring is needed, which patients often find reassuring, but adherence is critical since a missed dose is not buffered the way warfarin's long half-life partially is. Rivaroxaban 15 mg and 20 mg doses must be taken with food for absorption. Warn about bleeding signs and confirm renal function is checked periodically since dosing depends on it."
+  },
+  {
+    "id": 22,
+    "domain": "clinical_care",
+    "front": "Missed dose of warfarin, what do you tell the patient?",
+    "back": "If remembered the same day, take it as soon as possible. If not remembered until the next day, skip the missed dose entirely and never double up. Advise the patient to record the missed dose and mention it at the next INR check."
+  },
+  {
+    "id": 23,
+    "domain": "clinical_care",
+    "front": "Missed dose of a DOAC, what do you tell the patient?",
+    "back": "For once daily DOACs, take it as soon as remembered on the same day but skip if almost time for the next dose, never doubling. For twice daily DOACs the window is tighter, generally take within 6 hours of the scheduled time or skip that single dose. Because there is no INR to catch a problem, stress a reminder system such as a pill organizer or phone alarm."
+  },
+  {
+    "id": 24,
+    "domain": "clinical_care",
+    "front": "INR target ranges to recall quickly",
+    "back": "Most standard indications such as atrial fibrillation and DVT or PE treatment target an INR of 2 to 3. Mechanical mitral valves or higher risk situations may target 2.5 to 3.5. An INR above 4.5 to 5 with no bleeding usually means holding a dose and rechecking, while active major bleeding is an emergency referral regardless of the number."
+  },
+  {
+    "id": 25,
+    "domain": "clinical_care",
+    "front": "Bleeding signs a patient on anticoagulants should report",
+    "back": "Unusual bruising, blood in urine or stool, black tarry stools, coughing or vomiting blood, prolonged bleeding from a cut, and unusually heavy menstrual bleeding. Also flag severe headache or confusion, which could indicate intracranial bleeding and needs emergency attention. Nosebleeds that are frequent or hard to stop should also be reported."
+  },
+  {
+    "id": 26,
+    "domain": "clinical_care",
+    "front": "Anticoagulant plus NSAID, why is this flagged?",
+    "back": "NSAIDs increase bleeding risk both through their own antiplatelet effect and through GI mucosal irritation, compounding the anticoagulant's effect. Recommend acetaminophen for pain relief instead where appropriate. If an NSAID is truly necessary, this needs prescriber discussion and close monitoring, not a quiet OTC sale."
+  },
+  {
+    "id": 27,
+    "domain": "clinical_care",
+    "front": "Perioperative anticoagulant management, quick cue for a station",
+    "back": "Never advise the patient to stop or continue on your own; this decision belongs to the prescriber or surgical team based on bleeding risk versus clot risk. Your role in a counselling station is to confirm the patient has a documented bridging or hold plan and knows the exact stop and restart dates. Flag this clearly for prescriber follow-up if no plan exists."
+  },
+  {
+    "id": 28,
+    "domain": "clinical_care",
+    "front": "Teaching enoxaparin (LMWH) injection technique",
+    "back": "Inject subcutaneously into the abdomen, at least 5 cm from the navel, rotating sites each time. Pinch a skin fold, insert the needle at a 90 degree angle, and do not rub the site afterward since this increases bruising. Store prefilled syringes at room temperature and do not expel the air bubble in a prefilled syringe before injecting."
+  },
+  {
+    "id": 29,
+    "domain": "clinical_care",
+    "front": "Anticoagulant reversal agents, quick recall",
+    "back": "Vitamin K reverses warfarin, with faster reversal from four factor prothrombin complex concentrate in urgent bleeding. Idarucizumab reverses dabigatran specifically. Andexanet alfa reverses factor Xa inhibitors like apixaban and rivaroxaban where available; this is emergency department level care, not something to manage at the counter."
+  },
+  {
+    "id": 30,
+    "domain": "clinical_care",
+    "front": "Anticoagulant counselling, closing checklist",
+    "back": "Confirm the patient can state the drug name, why they take it, what bleeding signs mean call the doctor, and any diet or interaction point specific to that drug. Ask about upcoming dental work or surgery, which needs advance planning. End by confirming they know how to reach the clinic for questions between visits."
+  },
+  {
+    "id": 31,
+    "domain": "clinical_care",
+    "front": "Insulin injection technique, quick teaching points",
+    "back": "Inject into subcutaneous tissue of the abdomen, thigh, or upper arm, pinching a skin fold if using a shorter needle is not available. Rotate sites within the same general area to prevent lipohypertrophy, which impairs absorption over time. Prime the pen with 2 units before each injection and hold the needle in place for 10 seconds after the plunger is fully depressed."
+  },
+  {
+    "id": 32,
+    "domain": "clinical_care",
+    "front": "Insulin storage, what to tell the patient",
+    "back": "Unopened insulin belongs in the refrigerator, not the freezer, until the expiry date. Once in use, most pens and vials are stable at room temperature for about 28 days, though this varies by product so check the specific insert. Never use insulin that looks cloudy when it should be clear, or that has been frozen or exposed to extreme heat."
+  },
+  {
+    "id": 33,
+    "domain": "clinical_care",
+    "front": "Hypoglycemia recognition and the Rule of 15",
+    "back": "Symptoms include shakiness, sweating, confusion, and rapid heartbeat, with blood glucose typically below 4 mmol/L. Treat with 15 grams of fast-acting carbohydrate such as glucose tablets or juice, wait 15 minutes, and recheck. Repeat if still low, and once resolved follow with a snack containing protein and carbohydrate if the next meal is more than an hour away."
+  },
+  {
+    "id": 34,
+    "domain": "clinical_care",
+    "front": "Sick day management for diabetes, quick counselling points",
+    "back": "Continue insulin even when not eating normally, since illness raises blood glucose through stress hormones. Check blood glucose more frequently, every 2 to 4 hours, and check ketones if using insulin and glucose is persistently elevated. Some oral agents, particularly SGLT2 inhibitors and metformin, may need to be held during acute illness with dehydration risk, a concept often called sick day medication rules."
+  },
+  {
+    "id": 35,
+    "domain": "clinical_care",
+    "front": "Metformin counselling essentials",
+    "back": "Take with food to reduce GI upset such as nausea and diarrhea, which often improves after the first few weeks. It does not cause hypoglycemia on its own. Hold before contrast dye procedures or major surgery per the specific protocol, and report muscle pain, weakness, or unusual breathing, which can rarely signal lactic acidosis."
+  },
+  {
+    "id": 36,
+    "domain": "clinical_care",
+    "front": "Sulfonylurea hypoglycemia risk, what to counsel",
+    "back": "Sulfonylureas like glyburide and gliclazide stimulate insulin release regardless of current blood glucose, so hypoglycemia risk is real, especially with missed meals or alcohol. Counsel the patient to eat regularly spaced meals and always carry a fast-acting carbohydrate source. Older adults and those with renal impairment are at higher risk and may need a lower starting dose."
+  },
+  {
+    "id": 37,
+    "domain": "clinical_care",
+    "front": "SGLT2 inhibitor counselling points",
+    "back": "Increased risk of genital yeast infections and urinary tract infections from glucose in the urine, so counsel on hygiene and early reporting of symptoms. Rare but serious risk of euglycemic diabetic ketoacidosis, where ketoacidosis occurs with near-normal glucose, so nausea, vomiting, or unusual fatigue needs urgent attention. Hold during acute illness, before surgery, or with reduced oral intake."
+  },
+  {
+    "id": 38,
+    "domain": "clinical_care",
+    "front": "GLP-1 agonist injection counselling (e.g. semaglutide)",
+    "back": "Weekly subcutaneous injection into abdomen, thigh, or upper arm, with dose typically titrated slowly to reduce GI side effects like nausea. Counsel that nausea often improves over the first few weeks and eating smaller, slower meals helps. Watch for signs of pancreatitis such as severe persistent abdominal pain radiating to the back."
+  },
+  {
+    "id": 39,
+    "domain": "clinical_care",
+    "front": "Insulin site rotation, why it matters",
+    "back": "Repeated injection into the same small spot causes lipohypertrophy, a lump of thickened tissue that absorbs insulin unpredictably and can cause unexplained glucose swings. Teach the patient to rotate within one region using a systematic pattern, such as a clock face or grid, rather than jumping between distant body areas which changes absorption speed. Check injection sites periodically for lumps."
+  },
+  {
+    "id": 40,
+    "domain": "clinical_care",
+    "front": "A1C targets, quick recall for counselling",
+    "back": "General target for most adults with diabetes is 7 percent or less. Less stringent targets around 7.1 to 8.5 percent may be appropriate for frail older adults or those with limited life expectancy or high hypoglycemia risk. Explain to patients that A1C reflects average glucose control over about 3 months, not a single reading."
+  },
+  {
+    "id": 41,
+    "domain": "clinical_care",
+    "front": "MDI (metered dose inhaler) technique, step by step",
+    "back": "Shake the inhaler, exhale fully away from the mouthpiece, seal lips around it, and press down while starting a slow deep breath in. Hold the breath for about 10 seconds before exhaling slowly. Wait about 30 to 60 seconds between puffs if more than one is prescribed."
+  },
+  {
+    "id": 42,
+    "domain": "clinical_care",
+    "front": "When and why to use a spacer with an MDI",
+    "back": "A spacer improves coordination between actuation and inhalation and increases the amount of drug reaching the lungs rather than the throat. It is especially useful for children, older adults, or anyone with poor technique. Clean the spacer regularly per the manufacturer's instructions since a buildup of static charge can reduce drug delivery."
+  },
+  {
+    "id": 43,
+    "domain": "clinical_care",
+    "front": "Dry powder inhaler technique, key difference from an MDI",
+    "back": "Unlike an MDI, a DPI requires a fast, forceful, deep inhalation to pull the powder into the lungs rather than a slow breath. The device should not be shaken and should be kept dry, since moisture clumps the powder. Load the dose per the specific device, since loading mechanisms vary between brands."
+  },
+  {
+    "id": 44,
+    "domain": "clinical_care",
+    "front": "Why rinse the mouth after an inhaled corticosteroid?",
+    "back": "Rinsing and spitting, not swallowing, after each use reduces the risk of oral thrush and hoarseness caused by local corticosteroid deposition. This applies to both MDI and DPI formulations of ICS, alone or combined with a long-acting bronchodilator. Using a spacer with the MDI form also reduces oral deposition."
+  },
+  {
+    "id": 45,
+    "domain": "clinical_care",
+    "front": "Reliever versus controller inhaler, how to explain the difference",
+    "back": "A reliever such as salbutamol works within minutes to open the airways during an acute symptom or attack and should be carried at all times. A controller such as an inhaled corticosteroid is taken daily on schedule to reduce underlying airway inflammation and prevent attacks, and does not help during an acute episode. Confirm the patient is not relying on the reliever alone while skipping the controller."
+  },
+  {
+    "id": 46,
+    "domain": "clinical_care",
+    "front": "Peak flow monitoring, what to teach",
+    "back": "Measure at the same time each day, standing if possible, taking the best of three attempts. Compare the reading to the patient's personal best rather than a population average. A drop below 80 percent of personal best signals caution, and below 50 percent signals a medical emergency."
+  },
+  {
+    "id": 47,
+    "domain": "clinical_care",
+    "front": "Asthma action plan zones, quick recall",
+    "back": "Green zone means well controlled, continue the regular controller regimen. Yellow zone means worsening symptoms or a peak flow drop, usually calling for a temporary increase in reliever use or a short course of oral corticosteroid per the plan. Red zone means severe symptoms or a peak flow below 50 percent of personal best, requiring emergency care immediately."
+  },
+  {
+    "id": 48,
+    "domain": "clinical_care",
+    "front": "Closing checklist for an inhaler counselling station",
+    "back": "Confirm the patient can demonstrate correct technique with teach-back, not just describe it verbally. Confirm they know the difference between their reliever and controller and when each is used. Ask about a written action plan and whether they know the signs that mean they need urgent medical attention."
+  },
+  {
+    "id": 49,
+    "domain": "clinical_care",
+    "front": "Opioid counselling, key points to cover",
+    "back": "Explain expected effects such as drowsiness and constipation, and that tolerance to the sedating and analgesic effect can develop while constipation typically does not improve on its own. Warn against combining with alcohol or sedatives due to additive respiratory depression risk. Cover safe storage, disposal, and that the medication should not be shared with anyone else."
+  },
+  {
+    "id": 50,
+    "domain": "clinical_care",
+    "front": "Naloxone counselling for a patient or caregiver",
+    "back": "Naloxone rapidly reverses opioid overdose but wears off before some opioids do, so emergency services must still be called and the person monitored for re-sedation. Teach the caregiver to recognize overdose signs such as slow or absent breathing and pinpoint pupils, then administer naloxone, call 911, and give rescue breaths if trained. A second dose can be given after several minutes if there is no response."
+  },
+  {
+    "id": 51,
+    "domain": "clinical_care",
+    "front": "Constipation prophylaxis with opioid therapy",
+    "back": "Constipation is expected with regular opioid use and tolerance to this effect does not develop the way it does to sedation. A stimulant laxative such as senna, often combined with a stool softener, should be started proactively rather than waiting for symptoms. Increasing fluid and fiber alone is usually not enough on higher opioid doses."
+  },
+  {
+    "id": 52,
+    "domain": "clinical_care",
+    "front": "Signs of opioid overdose to teach a caregiver",
+    "back": "Slow, shallow, or stopped breathing, pinpoint pupils, blue or gray lips and fingertips, and unresponsiveness to voice or a firm sternal rub. This is a medical emergency requiring immediate naloxone administration and a call to emergency services. Do not assume the person is just sleeping if they cannot be roused."
+  },
+  {
+    "id": 53,
+    "domain": "clinical_care",
+    "front": "Safe storage and disposal of opioids, what to advise",
+    "back": "Store in a locked cabinet or lockbox away from children and visitors, and count remaining tablets periodically if diversion is a concern. Return unused or expired tablets to the pharmacy for proper disposal rather than throwing them in household trash or flushing them. Explain that leftover opioids in a medicine cabinet are a common source of misuse by someone other than the patient."
+  },
+  {
+    "id": 54,
+    "domain": "clinical_care",
+    "front": "Tolerance versus dependence versus addiction, quick definitions",
+    "back": "Tolerance is needing a higher dose over time to achieve the same effect, a normal physiologic response. Dependence is the body adapting such that stopping abruptly causes withdrawal symptoms, also physiologic and expected with regular use. Addiction is compulsive drug seeking and use despite harm, a behavioral and psychological condition, distinct from the first two even though they can coexist."
+  },
+  {
+    "id": 55,
+    "domain": "clinical_care",
+    "front": "Tapering opioids, quick cue for a station",
+    "back": "Never advise abrupt discontinuation after regular use; withdrawal symptoms including anxiety, sweating, and GI upset can occur. A gradual taper, often a percentage reduction every 1 to 4 weeks depending on duration of use, is the standard approach and should be individualized by the prescriber. Your role at the counter is to support the plan and flag withdrawal symptoms, not to design the taper yourself."
+  },
+  {
+    "id": 56,
+    "domain": "clinical_care",
+    "front": "Verifying a controlled substance prescription, quick checklist",
+    "back": "Confirm the prescriber's identity and authority to prescribe the specific schedule, check the prescription for all required elements, and verify against the patient's fill history for early refills or overlapping prescribers. Use the provincial monitoring program where available to check for red flags like multiple prescribers or pharmacies. Contact the prescriber directly for any concern rather than assuming the prescription is valid as written."
+  },
+  {
+    "id": 57,
+    "domain": "clinical_care",
+    "front": "Driving and machinery warning with opioid therapy",
+    "back": "Warn that opioids can impair alertness and reaction time, especially at treatment initiation or after a dose increase. Advise against driving or operating machinery until the patient knows how the medication affects them. This warning applies again any time the dose changes, not just at the very first dose."
+  },
+  {
+    "id": 58,
+    "domain": "clinical_care",
+    "front": "Opioid plus benzodiazepine, why is this a major flag?",
+    "back": "Both drug classes cause central nervous system and respiratory depression, and combining them substantially increases the risk of fatal overdose even at doses that are individually safe. This combination carries an explicit boxed warning in many jurisdictions. If found together, contact the prescriber to discuss the necessity of both and consider a lower dose or closer monitoring."
+  },
+  {
+    "id": 59,
+    "domain": "clinical_care",
+    "front": "ACE inhibitor counselling points",
+    "back": "Warn about a dry, persistent, non-productive cough as a class effect that may require switching to an ARB if bothersome. Explain the rare but serious risk of angioedema, swelling of the face, lips, or throat, which needs emergency care immediately. Monitor for elevated potassium and check renal function periodically, especially after starting or increasing dose."
+  },
+  {
+    "id": 60,
+    "domain": "clinical_care",
+    "front": "ARB counselling points",
+    "back": "Works similarly to an ACE inhibitor by blocking the renin-angiotensin system but without the bradykinin-mediated cough, making it a common substitute when ACE inhibitor cough is intolerable. Still carries a risk, though lower, of angioedema and elevated potassium. Avoid combining an ACE inhibitor and ARB together due to added risk without added benefit."
+  },
+  {
+    "id": 61,
+    "domain": "clinical_care",
+    "front": "Beta-blocker counselling, most important safety point",
+    "back": "Never stop a beta-blocker abruptly, since sudden discontinuation can cause rebound hypertension, tachycardia, or worsening angina. Warn about fatigue and cold extremities as common early effects that often lessen with time. Counsel that it can mask the usual rapid heartbeat symptom of hypoglycemia in patients with diabetes, so other hypoglycemia signs become more important to watch."
+  },
+  {
+    "id": 62,
+    "domain": "clinical_care",
+    "front": "Diuretic counselling, timing and electrolyte points",
+    "back": "Take in the morning to avoid nighttime urination disrupting sleep. Loop and thiazide diuretics can lower potassium and sodium, so watch for muscle cramps, weakness, or dizziness and expect periodic electrolyte monitoring. Potassium-sparing diuretics carry the opposite risk of elevated potassium, especially if combined with an ACE inhibitor or ARB."
+  },
+  {
+    "id": 63,
+    "domain": "clinical_care",
+    "front": "Calcium channel blocker counselling points",
+    "back": "Dihydropyridines like amlodipine commonly cause peripheral edema and occasionally gingival hyperplasia with long-term use, so advise good dental hygiene. Non-dihydropyridines like diltiazem and verapamil can cause constipation and should be used cautiously with beta-blockers due to additive effects on heart rate and conduction. Grapefruit juice can increase blood levels of several calcium channel blockers and should generally be avoided."
+  },
+  {
+    "id": 64,
+    "domain": "clinical_care",
+    "front": "Orthostatic hypotension counselling for antihypertensive patients",
+    "back": "Advise rising slowly from sitting or lying positions, pausing before standing fully to let blood pressure adjust. Warn that dizziness on standing is more common after starting a new antihypertensive or increasing the dose. Recommend sitting or lying down immediately if lightheadedness occurs to prevent falls."
+  },
+  {
+    "id": 65,
+    "domain": "clinical_care",
+    "front": "Home blood pressure monitoring technique, key teaching points",
+    "back": "Sit quietly for 5 minutes before measuring, feet flat on the floor, back supported, arm at heart level. Avoid caffeine, exercise, and smoking for 30 minutes before the reading. Take two readings one minute apart and record both, ideally at the same times each day."
+  },
+  {
+    "id": 66,
+    "domain": "clinical_care",
+    "front": "Hypertension lifestyle counselling, quick recall points",
+    "back": "Reduce sodium intake, increase physical activity, limit alcohol, and maintain a healthy body weight, all of which have evidence for meaningfully lowering blood pressure. Recommend a DASH-style dietary pattern rich in fruits, vegetables, and low-fat dairy. Address smoking cessation separately as an independent cardiovascular risk factor even though it does not directly lower blood pressure itself."
+  },
+  {
+    "id": 67,
+    "domain": "clinical_care",
+    "front": "SSRI counselling, onset and discontinuation points",
+    "back": "Explain that full antidepressant effect typically takes 4 to 6 weeks, though some side effects like nausea appear immediately, so patients should not stop early due to lack of quick results. Warn against abrupt discontinuation because of discontinuation symptoms including dizziness, flu-like feelings, and irritability. Cover common early side effects such as GI upset and sexual dysfunction, which often improve with continued use except sexual side effects, which frequently persist."
+  },
+  {
+    "id": 68,
+    "domain": "clinical_care",
+    "front": "Serotonin syndrome, signs to recognize quickly",
+    "back": "Triad of mental status change such as agitation or confusion, autonomic instability such as fever, sweating, and rapid heart rate, and neuromuscular findings such as tremor, muscle rigidity, or hyperreflexia. Onset is usually rapid, often within 24 hours of starting or increasing a serotonergic drug or combining two. This is a medical emergency requiring immediate referral."
+  },
+  {
+    "id": 69,
+    "domain": "clinical_care",
+    "front": "SNRI counselling points",
+    "back": "Similar onset delay and discontinuation risk as SSRIs, since both classes act on serotonin. Additional consideration for blood pressure, since SNRIs like venlafaxine can raise blood pressure at higher doses, so periodic monitoring is reasonable. Also carries bleeding risk when combined with anticoagulants or NSAIDs due to serotonergic effects on platelets."
+  },
+  {
+    "id": 70,
+    "domain": "clinical_care",
+    "front": "Antipsychotic counselling, metabolic monitoring points",
+    "back": "Second generation antipsychotics carry a meaningful risk of weight gain, dyslipidemia, and new-onset diabetes, so baseline and periodic monitoring of weight, waist circumference, blood glucose, and lipids is standard. Counsel on healthy diet and activity from the start of therapy rather than waiting for weight gain to appear. Also mention movement-related side effects and the need to report any unusual stiffness or tremor."
+  },
+  {
+    "id": 71,
+    "domain": "clinical_care",
+    "front": "Benzodiazepine counselling, dependence and tapering points",
+    "back": "Effective for short-term anxiety or insomnia but carries real risk of tolerance and physical dependence with regular use beyond a few weeks. Never stop abruptly after regular use since withdrawal can include rebound anxiety and, in severe cases, seizures. Any discontinuation should follow a gradual taper individualized to the patient and duration of use."
+  },
+  {
+    "id": 72,
+    "domain": "clinical_care",
+    "front": "Lithium counselling, toxicity and monitoring points",
+    "back": "Narrow therapeutic index requires regular blood level monitoring, along with periodic renal and thyroid function tests. Early toxicity signs include tremor, nausea, and diarrhea, while more severe toxicity includes confusion, ataxia, and slurred speech, which needs urgent evaluation. Counsel on maintaining steady fluid and salt intake, since dehydration or a low-sodium diet can raise lithium levels."
+  },
+  {
+    "id": 73,
+    "domain": "clinical_care",
+    "front": "MAOI dietary restrictions, quick recall",
+    "back": "Avoid tyramine-rich foods such as aged cheese, cured or fermented meats, and tap beer, since tyramine combined with an MAOI can trigger a hypertensive crisis. Symptoms of a crisis include severe headache, palpitations, and neck stiffness and require emergency care. This restriction applies for about 2 weeks after stopping an MAOI as well, not just while actively taking it."
+  },
+  {
+    "id": 74,
+    "domain": "clinical_care",
+    "front": "Suicidality warning with antidepressants, counselling point",
+    "back": "There is an increased risk of suicidal thoughts, particularly in children, adolescents, and young adults, especially in the first weeks of treatment or after a dose change. Counsel patients and caregivers to watch for worsening mood, agitation, or new suicidal thoughts and to contact the prescriber or seek urgent care if these appear. This warning does not mean the medication should be withheld, but it does mean close early monitoring matters."
+  },
+  {
+    "id": 75,
+    "domain": "clinical_care",
+    "front": "General antibiotic counselling, most important point",
+    "back": "Complete the full prescribed course even if symptoms improve early, since stopping early can allow partial resistance to develop and the infection to return. Take at the recommended interval and with or without food per the specific drug. Report any signs of allergic reaction such as rash, swelling, or difficulty breathing immediately."
+  },
+  {
+    "id": 76,
+    "domain": "clinical_care",
+    "front": "Fluoroquinolone warnings, quick recall",
+    "back": "Carries a boxed warning for tendinitis and tendon rupture, particularly the Achilles tendon, with risk higher in older adults and those on corticosteroids. Also linked to peripheral neuropathy and CNS effects such as confusion, and QT prolongation. Advise the patient to stop and seek care if they notice tendon pain or swelling, and avoid dairy or antacids near dosing time since they reduce absorption."
+  },
+  {
+    "id": 77,
+    "domain": "clinical_care",
+    "front": "Antibiotic-associated diarrhea and C. difficile, counselling point",
+    "back": "Mild diarrhea during antibiotic treatment is common and often self-limiting, but watery diarrhea that is severe, bloody, or accompanied by fever and abdominal pain, especially days to weeks after antibiotic use, raises concern for C. difficile infection. This requires prompt medical evaluation rather than simple OTC anti-diarrheal treatment. Advise against anti-motility agents like loperamide if C. difficile is suspected, since slowing transit can worsen the illness."
+  },
+  {
+    "id": 78,
+    "domain": "clinical_care",
+    "front": "Tetracycline class counselling points",
+    "back": "Avoid dairy products, antacids, and iron or calcium supplements near dosing time, since divalent cations bind the drug and reduce absorption. Warn about photosensitivity and advise sun protection during treatment. Contraindicated in pregnancy and in young children due to permanent tooth discoloration and effects on bone growth."
+  },
+  {
+    "id": 79,
+    "domain": "clinical_care",
+    "front": "Assessing a penicillin allergy history, quick approach",
+    "back": "Ask specifically what happened, since many patients labeled allergic actually had a mild, non-immune reaction like GI upset rather than true hypersensitivity. Distinguish a mild rash from features of a severe reaction such as hives, swelling, or difficulty breathing, which suggest true IgE-mediated allergy. A vague or remote history without anaphylaxis features may still allow use of a related antibiotic with prescriber discussion, while clear anaphylaxis history means strict avoidance of the whole class."
+  },
+  {
+    "id": 80,
+    "domain": "clinical_care",
+    "front": "Macrolide interaction points (e.g. clarithromycin, erythromycin)",
+    "back": "Strong CYP3A4 inhibitors, so they raise levels of many interacting drugs including statins, increasing myopathy risk, and warfarin, increasing bleeding risk. Also associated with QT prolongation, a concern when combined with other QT-prolonging drugs. Azithromycin has fewer interactions than clarithromycin or erythromycin due to weaker enzyme inhibition, which matters when choosing among the class."
+  },
+  {
+    "id": 81,
+    "domain": "clinical_care",
+    "front": "Metronidazole and alcohol, what do you tell the patient?",
+    "back": "Avoid alcohol during treatment and for at least 24 to 72 hours after the last dose, since the combination can cause a disulfiram-like reaction with flushing, nausea, and vomiting. This includes alcohol-containing products like some cough syrups and mouthwash, not only drinks. Mention this clearly since patients often do not think of hidden alcohol sources."
+  },
+  {
+    "id": 82,
+    "domain": "clinical_care",
+    "front": "Antibiotic resistance, one counselling point to include",
+    "back": "Explain that taking antibiotics only when truly needed for a bacterial infection, completing the full course, and never sharing leftover antibiotics helps slow the development of resistant bacteria. Mention that antibiotics do not work against viral infections like the common cold, addressing a frequent patient misconception. Framing this briefly helps patients understand why the prescriber may have chosen watchful waiting instead of an antibiotic."
+  },
+  {
+    "id": 83,
+    "domain": "clinical_care",
+    "front": "Handling oral chemotherapy at home, safety counselling",
+    "back": "Wear gloves when handling the tablets and wash hands afterward, since many oral chemo agents are hazardous with exposure risk to caregivers. Store away from children and pets, and keep in original packaging with clear labeling. Instruct on separate handling of any spilled tablets or bodily fluids, and never crush or split tablets unless specifically confirmed safe."
+  },
+  {
+    "id": 84,
+    "domain": "clinical_care",
+    "front": "Neutropenic fever, why is this an emergency red flag?",
+    "back": "A patient on chemotherapy with a fever, often defined as a single temperature above 38 degrees Celsius, in the setting of low white blood cell count is at high risk for rapidly progressing, life-threatening infection. This requires immediate emergency department evaluation, not a wait-and-see approach. Counsel patients receiving chemo in advance to know this threshold and to seek care right away rather than trying OTC fever remedies first."
+  },
+  {
+    "id": 85,
+    "domain": "clinical_care",
+    "front": "Methotrexate dosing error risk, key counselling point",
+    "back": "For conditions like rheumatoid arthritis or psoriasis, methotrexate is dosed weekly, not daily, and mistaken daily dosing has caused fatal toxicity in real cases. Always confirm the patient understands it is one dose, or a split dose over 24 hours, once per week on a specific day. This is one of the highest-priority double-checks a pharmacist performs at dispensing."
+  },
+  {
+    "id": 86,
+    "domain": "clinical_care",
+    "front": "High-alert medication double-check, general principle",
+    "back": "High-alert medications such as insulin, opioids, anticoagulants, and chemotherapy agents carry a higher risk of serious harm if an error occurs, even though errors are not necessarily more frequent. Independent double-checks, clear labeling, and confirming the dose against the specific indication are standard practice before dispensing. In a station, verbalizing this extra verification step shows the assessor you recognize the drug's risk category."
+  },
+  {
+    "id": 87,
+    "domain": "clinical_care",
+    "front": "Emotional support cue during chemotherapy counselling",
+    "back": "Acknowledge that a cancer diagnosis and treatment carries significant emotional weight before moving into technical details about the drug. Ask open questions about how the patient is coping and offer information on support resources if appropriate. Balance thoroughness about side effects with a calm, unhurried tone rather than a rapid list that can feel overwhelming."
+  },
+  {
+    "id": 88,
+    "domain": "clinical_care",
+    "front": "Extravasation and spill precaution counselling for chemotherapy",
+    "back": "If a vesicant chemotherapy agent leaks outside the vein during infusion, this is an emergency requiring immediate stop of the infusion and prompt management to limit tissue damage. At home, counsel patients to report any burning, stinging, or swelling at a prior infusion site immediately. For accidental spills of oral or take-home hazardous drugs, advise using gloves, containing the spill, and following the pharmacy's specific cleanup instructions rather than a normal household cleanup."
+  },
+  {
+    "id": 89,
+    "domain": "clinical_care",
+    "front": "Cough and cold, red flags requiring referral instead of OTC",
+    "back": "Cough lasting more than 7 to 10 days, high fever, shortness of breath, chest pain, or coughing up blood or thick discolored sputum all need medical evaluation rather than self-care. Also refer infants under 2 years old, since many cough and cold products are not recommended in young children. A cough with wheezing or known cardiac or respiratory disease history should also be referred."
+  },
+  {
+    "id": 90,
+    "domain": "clinical_care",
+    "front": "Fever, red flags in adults versus children",
+    "back": "In adults, refer a fever above 39.4 degrees Celsius, one lasting more than 3 days, or one with severe headache, stiff neck, rash, or confusion. In infants under 3 months, any fever above 38 degrees Celsius needs immediate medical evaluation regardless of how well the infant otherwise appears. In older children, a fever with lethargy, difficulty breathing, or refusal to drink fluids also needs prompt referral."
+  },
+  {
+    "id": 91,
+    "domain": "clinical_care",
+    "front": "GI and diarrhea, red flags requiring referral",
+    "back": "Blood in the stool, high fever, signs of dehydration such as reduced urination or dizziness, or diarrhea lasting more than 48 to 72 hours in an adult all need referral. In infants and young children, refer sooner since dehydration develops faster. Severe abdominal pain, especially localized pain, is a red flag for a surgical cause and should not be managed with simple OTC antidiarrheals."
+  },
+  {
+    "id": 92,
+    "domain": "clinical_care",
+    "front": "Headache, red flags requiring referral",
+    "back": "Sudden severe headache described as the worst headache of my life, headache with fever and stiff neck, headache after head trauma, or headache with neurological symptoms like vision change, weakness, or confusion all need urgent evaluation. A new headache pattern in someone over 50 also warrants referral rather than OTC treatment. Headache that does not respond to appropriate OTC analgesic use within a reasonable timeframe should also prompt referral."
+  },
+  {
+    "id": 93,
+    "domain": "clinical_care",
+    "front": "Skin rash, red flags requiring referral",
+    "back": "Rash with fever, blistering, involvement of mucous membranes, or rapid spread over the body needs urgent evaluation, since these can indicate a severe drug reaction or infection. Signs of infection such as increasing redness, warmth, swelling, and pus in a localized rash or wound also need referral. A new rash occurring shortly after starting a new medication should be flagged as a possible drug reaction."
+  },
+  {
+    "id": 94,
+    "domain": "clinical_care",
+    "front": "Eye symptoms, red flags requiring referral rather than OTC",
+    "back": "Sudden vision loss or change, significant eye pain, sensitivity to light with headache, or a foreign body that will not flush out all need urgent referral. Redness with thick discharge, especially if unilateral at first, may suggest bacterial conjunctivitis needing prescription treatment rather than OTC drops. Contact lens wearers with eye pain and redness need prompt referral due to infection risk that can threaten vision if delayed."
+  },
+  {
+    "id": 95,
+    "domain": "clinical_care",
+    "front": "Back pain, red flags requiring referral",
+    "back": "Loss of bladder or bowel control, numbness in the groin or inner thighs, or progressive leg weakness are signs of cauda equina syndrome and need emergency referral. Back pain after significant trauma, unexplained weight loss, fever, or history of cancer also needs prompt medical evaluation. Simple mechanical back pain without these features can usually be managed with OTC analgesics and activity modification."
+  },
+  {
+    "id": 96,
+    "domain": "clinical_care",
+    "front": "Pregnancy and breastfeeding, OTC red flags to check",
+    "back": "Confirm pregnancy or breastfeeding status before recommending any OTC product, since common ingredients like NSAIDs are generally avoided in later pregnancy and some decongestants are used cautiously. When uncertain about a specific product's safety, refer to the prescriber or a reliable pregnancy-specific drug resource rather than guessing. Any OTC recommendation should default to the option with the most established safety data in pregnancy or lactation."
+  },
+  {
+    "id": 97,
+    "domain": "clinical_care",
+    "front": "Pediatric OTC dosing, red flags to watch for",
+    "back": "Always dose by weight rather than age alone, and double check the concentration of liquid formulations since these vary between products and can cause dosing errors. Avoid certain ingredients in specific age groups, such as most cough and cold combination products under age 6, and aspirin in children and teenagers due to Reye syndrome risk. If a caregiver seems unsure of the correct dose or device, walk through it directly rather than assuming they know."
+  },
+  {
+    "id": 98,
+    "domain": "clinical_care",
+    "front": "Heartburn and GERD, red flags requiring referral",
+    "back": "Difficulty or pain swallowing, unintentional weight loss, vomiting blood or material resembling coffee grounds, or black tarry stools all need urgent referral rather than continued OTC antacid or acid suppressant use. Symptoms persisting despite regular OTC treatment for more than 2 weeks also warrant referral for further evaluation. New onset heartburn in an older adult, or heartburn with chest pain that could be cardiac in origin, needs careful triage."
+  },
+  {
+    "id": 99,
+    "domain": "clinical_care",
+    "front": "Insomnia, self-care red flags requiring referral",
+    "back": "Insomnia lasting more than a few weeks, or associated with daytime impairment, mood symptoms, or suspected sleep apnea such as loud snoring with witnessed breathing pauses, needs referral beyond simple OTC sleep aids. OTC sedating antihistamines are generally not recommended for regular long-term use, especially in older adults due to anticholinergic risk and fall risk. Insomnia that started alongside a new medication should prompt a review of that medication as a possible cause."
+  },
+  {
+    "id": 100,
+    "domain": "clinical_care",
+    "front": "General self-care triage framework, quick recall for any symptom",
+    "back": "Ask about the symptom's onset, duration, severity, and what makes it better or worse, then screen for red flag features, relevant medical history, current medications, and allergies before recommending self-treatment. If any red flag is present, or if symptoms persist beyond an expected self-care timeframe, refer to the prescriber or emergency care rather than continuing OTC management. Always confirm the patient's age and pregnancy or breastfeeding status early, since these change which products are appropriate."
+  },
+  {
+    "id": 101,
+    "domain": "distribution",
+    "front": "New prescription screening checklist: what are the required elements?",
+    "back": "Patient full name and date of birth, prescriber name and signature, drug name, strength, dosage form, quantity, directions for use, and date written. Missing any element means the prescription cannot be filled until it is clarified with the prescriber. Also confirm the prescriber's authority to prescribe that specific drug in that province."
+  },
+  {
+    "id": 102,
+    "domain": "distribution",
+    "front": "Screening a new prescription: what clinical checks come after the legal elements?",
+    "back": "Check the dose against the patient's age, weight, and renal or hepatic function, then screen for drug interactions, duplicate therapy, and allergies. Compare the diagnosis or indication against the drug chosen if known. Flag anything unusual and resolve it with the prescriber before entering the order."
+  },
+  {
+    "id": 103,
+    "domain": "distribution",
+    "front": "Controlled substance prescription: extra rules beyond a regular prescription",
+    "back": "Controlled substance prescriptions must be written (verbal orders are restricted or prohibited depending on the schedule and province), cannot usually be refilled without a new written order, and quantity plus directions must be unambiguous with no room to alter numbers. Pharmacists must verify prescriber identity and authority more strictly and document the transaction according to provincial narcotic monitoring rules."
+  },
+  {
+    "id": 104,
+    "domain": "distribution",
+    "front": "What is required for a verbal prescription to be valid?",
+    "back": "The pharmacist must receive it directly from the prescriber or an authorized delegate, record all required elements at the time of the call, and read back the drug name, strength, and directions to confirm accuracy. The pharmacist then signs and dates the written record they created. Many controlled substances cannot be prescribed verbally at all."
+  },
+  {
+    "id": 105,
+    "domain": "distribution",
+    "front": "Checking a filled prescription: the 5-point verification",
+    "back": "Right patient, right drug, right strength or concentration, right quantity, and right directions on the label. Compare the filled product and label directly against the original prescription, not against what the technician typed. This final check is the last barrier before a dispensing error reaches the patient."
+  },
+  {
+    "id": 106,
+    "domain": "distribution",
+    "front": "Checking a filled prescription: what beyond the 5 rights must be confirmed?",
+    "back": "Confirm the correct auxiliary labels are attached, such as drowsiness warnings, take-with-food instructions, or shake-well reminders. Check the product itself for correct manufacturer, lot number visibility, and physical appearance matching what is expected. Also confirm the quantity in the vial matches the label count."
+  },
+  {
+    "id": 107,
+    "domain": "distribution",
+    "front": "Releasing a verified product: what must happen at pickup?",
+    "back": "Confirm the identity of the person picking up matches the patient or an authorized representative, and offer counselling on new or changed therapy. Document who received the product if required by provincial rules, especially for controlled substances. Answer any questions before the patient leaves the counter."
+  },
+  {
+    "id": 108,
+    "domain": "distribution",
+    "front": "What should trigger a pharmacist to offer counselling rather than just wait to be asked?",
+    "back": "A brand new medication, a significant dose change, a complex device like an inhaler or insulin pen, or any therapy with a narrow safety margin. Also offer counselling when a patient looks unsure or asks a general question at pickup. Silence from the patient does not mean counselling is unnecessary."
+  },
+  {
+    "id": 109,
+    "domain": "distribution",
+    "front": "Look-alike-sound-alike pair: hydralazine vs hydroxyzine",
+    "back": "Hydralazine treats hypertension while hydroxyzine is an antihistamine used for anxiety, itching, or nausea. The names differ by only a few letters and both come in similar oral strengths. Always confirm the indication matches the drug selected during verification."
+  },
+  {
+    "id": 110,
+    "domain": "distribution",
+    "front": "Look-alike-sound-alike pair: clonazepam vs clonidine vs clomipramine",
+    "back": "Clonazepam is a benzodiazepine for seizures or anxiety, clonidine is an antihypertensive also used for withdrawal symptoms, and clomipramine is a tricyclic antidepressant. All three share a similar first syllable and can be selected from the same dropdown by mistake. Cross-check the indication and strength ranges before releasing."
+  },
+  {
+    "id": 111,
+    "domain": "distribution",
+    "front": "Look-alike-sound-alike pair: metFORMIN vs metRONIDAZOLE",
+    "back": "Metformin manages blood glucose in type 2 diabetes, while metronidazole is an antibiotic and antiprotozoal agent. Both names start with met and are common in daily practice. Tall-man lettering and indication checks reduce the risk of mixing them up."
+  },
+  {
+    "id": 112,
+    "domain": "distribution",
+    "front": "Early refill request: first questions to ask the patient",
+    "back": "Ask why the medication is running out early, such as a dose change, lost or spilled medication, travel, or double dosing by mistake. Check the fill history and days supply used against days elapsed since the last fill. The reason given shapes whether an early refill is appropriate or whether it signals a bigger problem."
+  },
+  {
+    "id": 113,
+    "domain": "distribution",
+    "front": "Early refill request: when is it reasonable to authorize?",
+    "back": "Travel with documentation, a recent dose increase confirmed with the prescriber, or lost medication with a clear one-time explanation can justify an early refill, sometimes with an insurance override code. For controlled substances or patterns of repeated early requests, involve the prescriber and check the provincial monitoring database before dispensing. Document the reason given and the decision made."
+  },
+  {
+    "id": 114,
+    "domain": "distribution",
+    "front": "How to explain an insurance-driven generic substitution to a patient",
+    "back": "Explain that the generic contains the same active ingredient, strength, and dosage form and must meet the same regulatory standards for quality and effectiveness as the brand. Mention that the insurance plan covers the generic price and the patient may pay extra to keep the brand out of pocket. Reassure the patient the change was made for cost reasons, not because of a problem with their prior medication."
+  },
+  {
+    "id": 115,
+    "domain": "distribution",
+    "front": "What if a patient insists the generic switch made their condition worse?",
+    "back": "Take the concern seriously, ask about the timing and nature of the new symptoms, and check for known bioavailability concerns with that specific drug class, such as narrow therapeutic index medications. Report suspected adverse effects appropriately and consider contacting the prescriber if symptoms are significant. Offer to switch back to brand with prescriber and insurance approval if warranted."
+  },
+  {
+    "id": 116,
+    "domain": "distribution",
+    "front": "Inventory management: expiry date checks",
+    "back": "Rotate stock so shorter-dated product is used first, and check expiry dates at receiving, during regular shelf audits, and again before dispensing any product. Never dispense an expired product even if only a few days have passed. Track products nearing expiry so they can be used, returned, or removed before they lapse."
+  },
+  {
+    "id": 117,
+    "domain": "distribution",
+    "front": "Inventory management: how to handle a drug recall",
+    "back": "Immediately pull the affected lot numbers from active stock and quarantine them separately from usable inventory. Check dispensing records to identify any patients who already received the recalled lot and contact them per the recall notice instructions. Document the recall response and follow the manufacturer or regulator's return or disposal instructions."
+  },
+  {
+    "id": 118,
+    "domain": "distribution",
+    "front": "Inventory management: controlled substance stock checks",
+    "back": "Perform regular perpetual inventory counts and reconcile them against dispensing records to catch discrepancies quickly. Store controlled substances in a locked, secure area with restricted access. Report any suspected loss or theft to the appropriate regulatory body and law enforcement as required by provincial rules."
+  },
+  {
+    "id": 119,
+    "domain": "distribution",
+    "front": "Legal requirements for a valid Canadian prescription",
+    "back": "It must include the patient's name, the drug name, strength, dosage form, and quantity, complete directions for use, the date, and the prescriber's signature and identifying information. The prescriber must be legally authorized to prescribe that drug within their scope of practice in that province. Any prescription missing a required element is incomplete and needs clarification before dispensing."
+  },
+  {
+    "id": 120,
+    "domain": "distribution",
+    "front": "What should a pharmacist do with an incomplete or unclear prescription?",
+    "back": "Contact the prescriber or an authorized delegate directly to clarify the missing or unclear information rather than guessing or assuming intent. Document the clarification received, including who provided it and when. Only proceed to fill once every required element is confirmed and unambiguous."
+  },
+  {
+    "id": 121,
+    "domain": "knowledge_expertise",
+    "front": "A patient asks why you recommend a plain acetaminophen or ibuprofen product instead of the heavily advertised combination cold and flu remedy. How do you respond?",
+    "back": "Explain that single ingredient products let the patient treat only the symptoms they actually have, at a dose that can be adjusted safely. Combination products add ingredients like decongestants or antihistamines that are not needed and raise the risk of side effects or duplication with other medicines. Guideline sources such as the Compendium of Therapeutics for Minor Ailments favor the simplest effective option first."
+  },
+  {
+    "id": 122,
+    "domain": "knowledge_expertise",
+    "front": "A patient with a mild sore throat and no red flag symptoms asks for antibiotics right away. What is the evidence-informed approach?",
+    "back": "Most sore throats are viral and resolve on their own within a week, so watchful waiting with supportive care such as fluids, salt water gargles, and analgesics is reasonable first. Use a Centor or McIsaac score to estimate the likelihood of group A strep and reserve testing or antibiotics for higher risk presentations. Explain that unnecessary antibiotic use contributes to resistance and side effects without speeding recovery in most cases."
+  },
+  {
+    "id": 123,
+    "domain": "knowledge_expertise",
+    "front": "A prescriber questions why you recommended metformin as first line for a newly diagnosed type 2 diabetes patient instead of a newer agent. How do you justify the choice with evidence?",
+    "back": "Diabetes Canada guidelines list metformin as the preferred initial agent for most patients due to its long safety record, low hypoglycemia risk, weight neutral or favorable weight effect, and low cost. Newer agents such as SGLT2 inhibitors or GLP1 agonists are added when there is established cardiovascular or kidney disease, or when additional glycemic control is needed. Framing the recommendation around guideline evidence and the patient's specific risk profile supports collegial discussion rather than disagreement."
+  },
+  {
+    "id": 124,
+    "domain": "knowledge_expertise",
+    "front": "What is watchful waiting and when is it an appropriate recommendation for a self-limiting condition like acute otitis media in an otherwise healthy child over 2 years old?",
+    "back": "Watchful waiting means delaying antibiotic treatment for 24 to 48 hours while managing pain, since many mild cases resolve without antibiotics. It is appropriate when the child is over 2 years, has non-severe symptoms, and caregivers can monitor for worsening and return promptly if needed. This approach reduces unnecessary antibiotic exposure while keeping a clear safety net in place."
+  },
+  {
+    "id": 125,
+    "domain": "knowledge_expertise",
+    "front": "A physician asks you to justify recommending low dose aspirin for off-label use in a patient with a strong family history of colorectal cancer. How do you reason through risk versus benefit?",
+    "back": "Explain that while some evidence links long term low dose aspirin to reduced colorectal cancer risk in certain populations, this must be weighed against increased bleeding risk, especially gastrointestinal bleeding. Consider the patient's age, bleeding history, and concurrent use of anticoagulants or NSAIDs before supporting the recommendation. Off-label use should be individualized and ideally guided by specialist input rather than applied broadly."
+  },
+  {
+    "id": 126,
+    "domain": "knowledge_expertise",
+    "front": "How should a pharmacist explain a clinical practice guideline recommendation to a patient who does not understand medical terminology?",
+    "back": "Translate the recommendation into plain language, focusing on what the patient should do, why it matters for their health, and what result to expect. Avoid quoting grades of evidence or technical wording, and instead use a relatable example or comparison. Confirm understanding by asking the patient to repeat back the key point in their own words."
+  },
+  {
+    "id": 127,
+    "domain": "knowledge_expertise",
+    "front": "What does number needed to treat mean, and how can it be used to communicate a drug's benefit to a patient in an understandable way?",
+    "back": "Number needed to treat is the number of patients who need to receive a treatment for one additional patient to benefit compared with not receiving it. A smaller number needed to treat means a more effective treatment for that outcome. Rather than stating the raw number, frame it practically, such as saying that out of a group of similar patients, most will not see a difference but a meaningful minority will avoid the negative outcome."
+  },
+  {
+    "id": 128,
+    "domain": "knowledge_expertise",
+    "front": "A patient is anxious after reading that a common statin carries a small increased risk of diabetes. How do you frame the risk in a balanced way?",
+    "back": "Present both the absolute risk increase and the absolute benefit together rather than the relative risk alone, since relative numbers can sound more alarming than they are in practice. Remind the patient that statins have strong evidence for reducing cardiovascular events in appropriate candidates, and that the small metabolic risk is generally outweighed by that benefit. Encourage ongoing monitoring rather than stopping the medication without discussion."
+  },
+  {
+    "id": 129,
+    "domain": "knowledge_expertise",
+    "front": "A patient wants a brand name proton pump inhibitor because they believe it works better than the generic their pharmacy dispenses. How do you address this using evidence and judgment?",
+    "back": "Explain that Health Canada requires generic products to demonstrate bioequivalence to the brand name product, meaning they deliver the same amount of drug at a similar rate in the body. Reassure the patient that therapeutic effect should be equivalent, and ask about the timing or specific symptoms driving their concern to rule out an adherence or technique issue. If a genuine problem persists despite correct use, document and escalate rather than dismissing the concern."
+  },
+  {
+    "id": 130,
+    "domain": "knowledge_expertise",
+    "front": "How should a pharmacist decide whether watchful waiting is appropriate versus recommending immediate treatment for a self-limiting condition such as acute diarrhea in a healthy adult?",
+    "back": "Assess for red flags such as high fever, blood in stool, signs of dehydration, or symptoms lasting beyond the expected short course before deciding. If none are present, supportive care such as oral rehydration and dietary adjustment is reasonable while monitoring for improvement within a few days. Clear return precautions should always accompany a watchful waiting recommendation so the patient knows when to seek further care."
+  },
+  {
+    "id": 131,
+    "domain": "knowledge_expertise",
+    "front": "A colleague asks why you recommend a thiazide diuretic as an add on for uncomplicated hypertension rather than a newer, more expensive antihypertensive. What is your evidence-based rationale?",
+    "back": "Thiazide diuretics have decades of trial evidence supporting reduced cardiovascular events and are recommended as a first or second line option in most current hypertension guidelines. They are also low cost and well tolerated in most patients, which supports long term adherence. Newer agents are reserved for patients with specific compelling indications such as heart failure or certain kidney conditions."
+  },
+  {
+    "id": 132,
+    "domain": "knowledge_expertise",
+    "front": "What practical framing helps a patient understand absolute risk reduction instead of being misled by a relative risk statistic quoted in the media?",
+    "back": "Convert the relative risk into a real world example using a fixed group size, such as describing how many people out of a hundred with the condition would experience the outcome with and without treatment. This grounds the number in something tangible rather than an abstract percentage. Always pair the risk reduction figure with the baseline risk so the patient can judge the true magnitude of benefit."
+  },
+  {
+    "id": 133,
+    "domain": "knowledge_expertise",
+    "front": "A prescriber wants to use an antidepressant off-label for a chronic pain condition. How does a pharmacist weigh this decision using clinical judgment?",
+    "back": "Review whether evidence supports the specific agent for the pain condition in question, since some antidepressants have established off-label use in neuropathic or chronic pain while others do not. Consider the patient's comorbidities, other medications, and risk of side effects such as sedation or cardiac effects before endorsing the plan. Document the rationale and monitor for both efficacy and adverse effects since off-label use carries less certainty than approved indications."
+  },
+  {
+    "id": 134,
+    "domain": "knowledge_expertise",
+    "front": "How should a pharmacist respond when a patient insists on a guideline-recommended older drug being inferior simply because it is inexpensive?",
+    "back": "Clarify that price often reflects patent status and manufacturing costs rather than clinical effectiveness, and that many older drugs remain first line because long term data confirm their safety and benefit. Point out that guideline committees weigh evidence quality, not cost alone, when ranking treatment options. Reassure the patient that switching to a costlier option would not be expected to improve their outcome."
+  },
+  {
+    "id": 135,
+    "domain": "knowledge_expertise",
+    "front": "What is a practical approach for explaining a strong versus a weak guideline recommendation to a patient making a treatment decision?",
+    "back": "For a strong recommendation, communicate that the evidence and expected benefit are consistent enough that most patients in the same situation should follow it. For a weak or conditional recommendation, explain that the decision depends more on the individual's values, preferences, and specific circumstances, and invite shared discussion. This distinction helps patients understand how much room there is for personal choice in the decision."
+  },
+  {
+    "id": 136,
+    "domain": "knowledge_expertise",
+    "front": "A patient wants to stop a guideline-recommended medication because a friend had a bad experience with it. How do you use evidence and judgment to respond?",
+    "back": "Acknowledge the patient's concern without dismissing it, then explain that individual reactions vary and one person's experience does not predict another's outcome. Review the actual benefit the medication provides for this patient's specific condition and discuss what stopping it could mean for their risk. Offer to discuss alternatives with the prescriber if the concern remains after this conversation."
+  },
+  {
+    "id": 137,
+    "domain": "knowledge_expertise",
+    "front": "How does a pharmacist justify recommending non-pharmacological management first for mild insomnia rather than a sedative-hypnotic?",
+    "back": "Current sleep guidelines recommend cognitive behavioral therapy for insomnia and sleep hygiene measures as first line, since they address underlying causes and carry no risk of dependence or next day sedation. Sedative-hypnotics are generally reserved for short term use or when non-drug approaches have failed or are not accessible. Explaining this stepwise approach helps the patient understand why medication is not the automatic first choice."
+  },
+  {
+    "id": 138,
+    "domain": "knowledge_expertise",
+    "front": "What is the core professional judgment skill being tested when a pharmacist must decide between a guideline-recommended option and a patient's or prescriber's preferred alternative?",
+    "back": "The pharmacist must weigh the quality and applicability of the evidence against the specific patient's clinical picture, values, and circumstances rather than applying either the guideline or the preference automatically. This means checking whether the patient fits the population the guideline evidence was based on, and communicating any differences clearly. Good judgment balances respect for patient autonomy with a responsibility to recommend what is truly evidence-informed and safe."
+  },
+  {
+    "id": 139,
+    "domain": "communication",
+    "front": "What are the four factors PEBC scores in every OSCE communication station?",
+    "back": "Attending and responding to the patient's needs, feelings, and concerns in a professional manner; using an organized, logical approach with appropriate questioning technique; non-verbal communication that engages the patient; and clear, understandable language and speech. All four are scored separately, so a technically correct answer with flat delivery or jargon still loses marks."
+  },
+  {
+    "id": 140,
+    "domain": "communication",
+    "front": "What is reflective listening in one sentence?",
+    "back": "Restating what the patient said in your own words to confirm you understood both the content and the feeling behind it. Example: patient says 'I keep forgetting my pills and I feel like a failure,' you reflect 'It sounds like the missed doses are really weighing on you.' This shows engagement and often gets the patient to open up with more detail you need for the case."
+  },
+  {
+    "id": 141,
+    "domain": "communication",
+    "front": "Why acknowledge emotion before giving information?",
+    "back": "A patient who feels unheard cannot absorb clinical information, so skipping straight to counseling reads as cold and the content gets lost. Name the emotion first, for example 'I can see this diagnosis has caught you off guard,' then pause briefly before moving into education. This single habit is one of the fastest ways to raise your empathy score on a scenario station."
+  },
+  {
+    "id": 142,
+    "domain": "communication",
+    "front": "Give a strong opening line for a new patient counseling station.",
+    "back": "'Hi, I'm the pharmacist here today. Before we talk about your new prescription, can you tell me what your doctor already explained about it?' This opens with introduction, states purpose, and immediately checks baseline understanding with an open question. It avoids repeating information the patient already has and sets a collaborative tone from the first line."
+  },
+  {
+    "id": 143,
+    "domain": "communication",
+    "front": "Give a strong opening line for a telephone triage station.",
+    "back": "'Thanks for calling, this is the pharmacist. Can you start by telling me your name and what's going on today?' Because you cannot see the caller, confirm identity and the presenting concern immediately rather than assuming who they are. State early that you may need to ask several questions before giving advice, so the caller does not feel interrogated."
+  },
+  {
+    "id": 144,
+    "domain": "communication",
+    "front": "Give a strong opening line for a disclosure-of-error station.",
+    "back": "'I need to tell you about something that happened with your prescription, and I want to explain exactly what occurred.' Lead with a clear signal that this is a serious conversation, not small talk, so the patient is mentally prepared. Avoid burying the lede with unrelated pleasantries first, since that reads as avoidance to assessors."
+  },
+  {
+    "id": 145,
+    "domain": "communication",
+    "front": "How do you open a station where the patient is visibly upset before you even speak?",
+    "back": "Name what you observe and invite them in, for example 'I can see you're upset, do you want to tell me what's going on?' This hands control of the pace back to the patient instead of forcing your agenda onto someone who is not ready. Only move to clinical content once they signal they are ready to talk about it."
+  },
+  {
+    "id": 146,
+    "domain": "communication",
+    "front": "Step 1 of handling an angry patient at the counter.",
+    "back": "Let them finish speaking without interrupting, even if the complaint is long or partly incorrect. Interrupting an angry person escalates the anger because it signals you are not actually listening. Only respond once they pause or explicitly ask you a question."
+  },
+  {
+    "id": 147,
+    "domain": "communication",
+    "front": "Step 2 of handling an angry patient at the counter.",
+    "back": "Validate the emotion without necessarily agreeing with every claim, for example 'I understand why this would be frustrating, waiting this long is not okay.' Validation is about the feeling, not a concession that you were wrong before you have the facts. This lowers the emotional temperature enough that problem solving becomes possible."
+  },
+  {
+    "id": 148,
+    "domain": "communication",
+    "front": "Step 3 of handling an angry patient at the counter.",
+    "back": "Move to a solution-focused question, such as 'Let's figure out how to fix this for you right now, is that okay?' Offering a concrete next step gives the patient a sense of control and shifts the conversation from venting to resolving. Close by confirming the patient is satisfied with the plan before ending the station."
+  },
+  {
+    "id": 149,
+    "domain": "communication",
+    "front": "How should tone and pacing differ with a grieving patient compared to a routine counseling patient?",
+    "back": "Slow your speech, lower your volume slightly, and leave longer pauses after you speak so the patient has room to respond. Avoid rushing to fill silence, since silence is often the patient processing rather than a cue for you to keep talking. Offer simple, sincere acknowledgment such as 'I'm very sorry for your loss' before addressing any pharmacy business."
+  },
+  {
+    "id": 150,
+    "domain": "communication",
+    "front": "What should you avoid saying to a grieving patient?",
+    "back": "Avoid minimizing phrases like 'at least it was quick' or 'everything happens for a reason,' since these dismiss the patient's feelings rather than acknowledge them. Also avoid launching straight into medication logistics such as returning unused drugs without first checking whether the patient is ready to discuss that. Let the patient set the pace for how much practical detail they want covered today."
+  },
+  {
+    "id": 151,
+    "domain": "communication",
+    "front": "How do you open with a newly-diagnosed, anxious patient?",
+    "back": "Acknowledge the diagnosis is a lot to take in before giving any drug information, for example 'A new diagnosis like this can feel overwhelming, let's take it one step at a time.' Ask what worries them most rather than assuming, since their biggest fear may not be the one you expect. Break information into small chunks and check understanding after each chunk instead of delivering it all at once."
+  },
+  {
+    "id": 152,
+    "domain": "communication",
+    "front": "What technique helps an anxious patient retain information better?",
+    "back": "Chunk and check: give one or two pieces of information, then pause and ask a confirming question like 'Does that make sense so far?' before adding more. Anxiety narrows working memory, so a long uninterrupted explanation is likely to be forgotten. Ending with a brief written or verbal summary reinforces the most important points."
+  },
+  {
+    "id": 153,
+    "domain": "communication",
+    "front": "How do you approach a patient who is skeptical or distrustful of a recommended medication?",
+    "back": "Ask what specifically concerns them before defending the medication, since skepticism often comes from a past bad experience or something they read. Validate that their concern is reasonable to have, then provide balanced information including both benefits and realistic side effects. Avoid being defensive or repeating the same fact louder, which tends to deepen distrust rather than resolve it."
+  },
+  {
+    "id": 154,
+    "domain": "communication",
+    "front": "What is the difference between arguing with a skeptical patient and using motivational interviewing?",
+    "back": "Arguing pushes the patient into defending their position even harder, a pattern called the righting reflex. Motivational interviewing instead draws out the patient's own reasons for change through open questions, so they convince themselves. The goal is a collaborative exploration of ambivalence, not a debate you are trying to win."
+  },
+  {
+    "id": 155,
+    "domain": "communication",
+    "front": "What does the O in motivational interviewing's OARS stand for?",
+    "back": "Open questions, meaning questions that cannot be answered with a simple yes or no, such as 'What has made it hard to take this medication regularly?' Open questions invite the patient to share more context and reveal their own motivations. Save closed questions for confirming specific clinical details later in the conversation."
+  },
+  {
+    "id": 156,
+    "domain": "communication",
+    "front": "What does the A in motivational interviewing's OARS stand for?",
+    "back": "Affirmations, meaning genuine statements that recognize the patient's strengths or effort, such as 'It takes real commitment to keep trying despite the side effects.' Affirmations build confidence and rapport, which makes the patient more receptive to change. They must be specific and sincere, not generic praise."
+  },
+  {
+    "id": 157,
+    "domain": "communication",
+    "front": "What does the R in motivational interviewing's OARS stand for?",
+    "back": "Reflections, meaning restating what the patient said to show understanding and to gently highlight ambivalence, for example 'On one hand you want to feel better, on the other the side effects are hard to manage.' A good reflection often moves the conversation forward more than another question would. Reflections should sound like a statement, not a question."
+  },
+  {
+    "id": 158,
+    "domain": "communication",
+    "front": "What does the S in motivational interviewing's OARS stand for?",
+    "back": "Summaries, meaning periodically pulling together what the patient has shared to show you have been tracking the whole conversation. A summary at a natural transition point, such as before giving a recommendation, confirms accuracy and signals closure of that topic. It also gives the patient a chance to correct anything you misunderstood."
+  },
+  {
+    "id": 159,
+    "domain": "communication",
+    "front": "A family member calls asking about another patient's prescription. What do you say first?",
+    "back": "State plainly that you cannot share another person's health information without their consent, for example 'I'm not able to discuss anyone else's prescriptions, including whether they are even a patient here.' Do this before answering any follow-up question, since even confirming or denying a person is a patient can be a privacy breach. Offer to help if the actual patient calls or provides written consent."
+  },
+  {
+    "id": 160,
+    "domain": "communication",
+    "front": "A spouse insists they have a right to know about their partner's medication. How do you respond?",
+    "back": "Acknowledge their concern is understandable, then explain that consent belongs to the patient regardless of the relationship, for example 'I know you're worried, but this information can only be shared with your partner's permission.' Suggest a practical path forward, such as encouraging the spouse to have the patient call you directly or attend together. Stay firm on confidentiality even if the caller becomes frustrated or persistent."
+  },
+  {
+    "id": 161,
+    "domain": "communication",
+    "front": "What is the one exception where sharing patient information without direct consent may be appropriate?",
+    "back": "When there is a genuine safety risk, such as a caregiver needing to know about a medication for someone who cannot manage their own care, or a legally authorized substitute decision maker. Even then, share only what is necessary for that specific safety purpose, not the full record. When uncertain, err on the side of confidentiality and escalate to a pharmacist manager or check policy."
+  },
+  {
+    "id": 162,
+    "domain": "communication",
+    "front": "How should you communicate when working through a professional interpreter?",
+    "back": "Speak directly to the patient, not the interpreter, using short clear sentences and pausing after each one for translation. Avoid idioms or complex medical jargon that may not translate cleanly across languages. Confirm understanding through the interpreter by asking the patient to repeat back key instructions in their own words."
+  },
+  {
+    "id": 163,
+    "domain": "communication",
+    "front": "How should you communicate when a family member is interpreting instead of a professional interpreter?",
+    "back": "Still direct your attention and questions to the patient whenever possible, and watch the patient's own non-verbal cues for signs of confusion or discomfort. Be mindful that a family member may soften, filter, or add their own opinions to what is being translated, especially on sensitive topics. If the conversation involves confidential or emotionally difficult content, consider offering a professional interpreter as an alternative."
+  },
+  {
+    "id": 164,
+    "domain": "communication",
+    "front": "What adjustment should you make when counseling a teenage patient?",
+    "back": "Speak to the teen directly rather than only to the accompanying parent, and use plain language without being condescending. Give the teen space to ask their own questions, since they may have concerns about privacy, appearance, or fitting in that differ from an adult patient's concerns. If a parent is present, briefly check with the teen how much they want discussed in front of the parent, when the topic is sensitive."
+  },
+  {
+    "id": 165,
+    "domain": "communication",
+    "front": "Why might a teen patient be reluctant to speak openly in front of a parent?",
+    "back": "Topics such as mental health, sexual health, or substance use often carry fear of judgment or of the parent finding out something the teen wanted kept private. Offering a moment of one-on-one time, where appropriate and within scope, can build trust and get more accurate information. Always stay within legal and workplace policy on minor consent and confidentiality for your jurisdiction."
+  },
+  {
+    "id": 166,
+    "domain": "communication",
+    "front": "What are the three parts of disclosing a pharmacy error to a patient?",
+    "back": "State clearly what happened in plain language, explain the potential impact on the patient's health, and describe what is being done now to address it and prevent recurrence. Avoid vague language like 'there was a small mix-up' that hides the seriousness of the error. Apologize sincerely without over-explaining or making excuses that shift blame away from the pharmacy."
+  },
+  {
+    "id": 167,
+    "domain": "communication",
+    "front": "Should you say 'I'm sorry' when disclosing an error, or avoid it for liability reasons?",
+    "back": "Yes, a sincere apology is expected and is part of professional, transparent communication in almost every jurisdiction's disclosure guidance. Avoiding an apology reads as evasive to both the patient and the assessor. Pair the apology with concrete next steps so it does not sound empty."
+  },
+  {
+    "id": 168,
+    "domain": "communication",
+    "front": "After disclosing an error, what should you always offer the patient?",
+    "back": "A clear plan for monitoring or follow-up, such as what symptoms to watch for and when to seek care, plus a way to reach the pharmacy with further questions. Also mention what safeguard is being put in place so the same error is less likely to happen again. Closing with a concrete plan restores some of the trust that the error damaged."
+  },
+  {
+    "id": 169,
+    "domain": "communication",
+    "front": "What is the biggest structural difference between telephone triage and in-person counseling?",
+    "back": "You lose all visual cues, such as the patient's facial expression, posture, or how they are holding the affected body part, so you must ask more explicit verbal questions to gather the same information. You also cannot confirm identity or read written labels the patient may be looking at, so verify details out loud instead of assuming. Tone of voice becomes your main non-verbal tool since the patient cannot see your face."
+  },
+  {
+    "id": 170,
+    "domain": "communication",
+    "front": "How do you compensate for the lack of visual cues on the phone?",
+    "back": "Ask more descriptive open questions, for example 'Can you describe exactly what the rash looks like and where it is?' instead of relying on what you would normally just see. Check in more frequently with verbal confirmations like 'Are you still there, does that make sense?' since you cannot see a confused expression. Slow down slightly, since the caller cannot use your body language to sense the conversation is moving to a new topic."
+  },
+  {
+    "id": 171,
+    "domain": "communication",
+    "front": "Why is closing a telephone call properly especially important?",
+    "back": "The caller cannot see you preparing to end the conversation, so an abrupt end feels rude even if unintentional. Always summarize the plan, ask if they have any remaining questions, and give a clear verbal signal like 'Thanks for calling, take care' before hanging up. This mirrors the closing courtesy a patient would get walking away from the counter in person."
+  },
+  {
+    "id": 172,
+    "domain": "communication",
+    "front": "What is cultural humility, in contrast to cultural competence?",
+    "back": "Cultural humility is an ongoing attitude of curiosity and self-reflection about your own biases, rather than treating culture as a checklist of facts to memorize about a group. It means asking the patient how their beliefs or practices affect their care rather than assuming based on their background. This avoids stereotyping while still respecting real differences in health beliefs."
+  },
+  {
+    "id": 173,
+    "domain": "communication",
+    "front": "Give a practical cultural humility phrase you can use in a station.",
+    "back": "'Can you tell me if there are any beliefs or practices around your health that are important for me to know?' This invites the patient to share relevant context on their own terms instead of you guessing. It also signals respect, which strengthens rapport even when no specific cultural issue turns out to be relevant."
+  },
+  {
+    "id": 174,
+    "domain": "communication",
+    "front": "What is a common cultural humility mistake candidates make in OSCE stations?",
+    "back": "Assuming a patient's beliefs or preferences based on their name, accent, or appearance, rather than asking directly. This can come across as stereotyping even when the intent was respectful. Always let the individual patient describe their own preferences rather than applying a group assumption to them."
+  },
+  {
+    "id": 175,
+    "domain": "communication",
+    "front": "List three non-verbal cues that read as engaged to an assessor.",
+    "back": "Consistent eye contact, an open posture facing the patient rather than turned toward a computer or notes, and occasional head nods while the patient is speaking. These signal you are actively listening even before you say anything. Facing the standardized patient directly, rather than the examiner, also matters."
+  },
+  {
+    "id": 176,
+    "domain": "communication",
+    "front": "List three non-verbal cues that read as dismissive to an assessor.",
+    "back": "Crossed arms, looking down at notes or a script for long stretches while the patient is talking, and interrupting before the patient finishes a sentence. Checking the clock or rushing your pace also signals impatience. Any of these can lower your communication score even if your clinical answer is correct."
+  },
+  {
+    "id": 177,
+    "domain": "communication",
+    "front": "Why does eye contact matter even in a scenario where you also need to take notes?",
+    "back": "Glance at notes briefly, then return your gaze to the patient before continuing to speak, rather than talking while staring down at a page. A short verbal bridge like 'let me just note that down' explains the break naturally instead of leaving it silent and unexplained. This keeps the patient feeling like the center of the conversation rather than a task being processed."
+  },
+  {
+    "id": 178,
+    "domain": "communication",
+    "front": "How should you close any OSCE communication station professionally?",
+    "back": "Summarize the key points agreed upon, ask an open question like 'Is there anything else I can help with today?' and confirm the patient knows the next step. End with a warm, brief closing statement rather than an abrupt stop when time runs low. A rushed or missing closing is noticeable to assessors even if the clinical content was strong."
+  },
+  {
+    "id": 179,
+    "domain": "communication",
+    "front": "What should the closing summary of a counseling station always include?",
+    "back": "The name of the medication or plan discussed, the single most important action step for the patient, and when to follow up or seek help if something goes wrong. Keeping the summary short, around two or three sentences, makes it more memorable than repeating everything covered. This final recap is often what the patient actually retains from the whole conversation."
+  },
+  {
+    "id": 180,
+    "domain": "communication",
+    "front": "How do organization and empathy scoring interact in a single station?",
+    "back": "A well-organized interview that skips empathy still loses marks, and an empathetic interview that never gets to the clinical content also loses marks, since both are scored independently. Build empathy statements into your natural flow, such as acknowledging feelings right after gathering key history, instead of treating them as separate steps. Practicing both together under time pressure is what OSCE prep should target."
+  },
+  {
+    "id": 181,
+    "domain": "communication",
+    "front": "How do you respond when a patient asks a question you genuinely do not know the answer to?",
+    "back": "Admit honestly that you do not have that specific answer right now rather than guessing, for example 'That's a good question, let me look into it and get back to you.' Guessing incorrectly is far more damaging to trust and safety than admitting a knowledge gap. Always state a concrete plan for how and when you will follow up with the correct information."
+  },
+  {
+    "id": 182,
+    "domain": "communication",
+    "front": "How do you handle a patient who talks for a long time about something unrelated to the clinical issue?",
+    "back": "Let them finish a reasonable amount, then use a gentle redirect that acknowledges what they said, for example 'That sounds stressful, and I want to make sure we also cover your new prescription before we run out of time.' Cutting someone off harshly damages rapport, but never redirecting means you risk missing key clinical steps. Practicing smooth transitions is a skill specifically tested in time-pressured OSCE stations."
+  },
+  {
+    "id": 183,
+    "domain": "communication",
+    "front": "What is the difference between sympathy and empathy in a patient conversation?",
+    "back": "Sympathy is feeling sorry for someone from the outside, such as saying 'that's terrible,' while empathy is communicating that you understand their experience from their perspective, such as 'it makes sense you'd feel scared given what you're going through.' Empathy tends to build stronger rapport because the patient feels understood rather than pitied. OSCE assessors are typically looking for empathic statements, not just sympathetic ones."
+  },
+  {
+    "id": 184,
+    "domain": "communication",
+    "front": "How should you handle silence from a patient after delivering difficult news?",
+    "back": "Resist the urge to fill the silence immediately with more facts or explanation. Give the patient a moment, then gently check in with something like 'Take your time, I'm here when you're ready to talk more.' Silence is often the patient processing the news, and rushing past it can feel like you are avoiding their emotional reaction."
+  },
+  {
+    "id": 185,
+    "domain": "communication",
+    "front": "What is a teach-back check and why use it?",
+    "back": "Asking the patient to explain in their own words what they will do at home, for example 'Just so I know I explained this clearly, can you tell me how you'll take this?' It confirms real understanding rather than a simple 'yes I understand' that may not be accurate. Use it especially for complex regimens or when health literacy or anxiety may affect retention."
+  },
+  {
+    "id": 186,
+    "domain": "communication",
+    "front": "How do you phrase a teach-back request so it does not sound like a test of the patient?",
+    "back": "Frame it as checking your own explanation rather than checking the patient, for example 'I want to make sure I explained that well, can you walk me through how you'll take it?' This avoids sounding condescending or like a pop quiz. It keeps responsibility for clarity on you, the counselor, which is more collaborative."
+  },
+  {
+    "id": 187,
+    "domain": "communication",
+    "front": "How should you communicate uncertainty about a diagnosis when a patient asks 'is it serious?'",
+    "back": "Be honest that you cannot diagnose, but describe clearly what you do know and what the appropriate next step is, for example 'I can't tell you exactly what's causing this, but based on what you've described, seeing a doctor soon would be the safest option.' Avoid false reassurance just to make the patient feel better in the moment. Clear, honest guidance paired with a concrete next step maintains trust even without a definitive answer."
+  },
+  {
+    "id": 188,
+    "domain": "communication",
+    "front": "What communication approach works best for a patient who is minimizing a serious symptom?",
+    "back": "Gently express your concern without alarming them, for example 'I hear that it doesn't feel like a big deal, but chest pain like this is something I'd want a doctor to check today.' Balance respect for their perspective with clear clinical urgency so the message is not missed. Avoid arguing about whether their symptom is serious and instead focus on the recommended action."
+  },
+  {
+    "id": 189,
+    "domain": "communication",
+    "front": "How do you handle a patient who becomes defensive when asked about adherence?",
+    "back": "Normalize the difficulty before asking directly, for example 'A lot of people find it hard to take medication every day, how has it been going for you?' Framing the question as common rather than accusatory reduces defensiveness. Follow with open, non-judgmental questions about specific barriers rather than asking why they failed."
+  },
+  {
+    "id": 190,
+    "domain": "communication",
+    "front": "What phrase invites a patient to share adherence barriers without feeling judged?",
+    "back": "'What's made it hard to take this as prescribed?' rather than 'why haven't you been taking this?' The first framing assumes there is a real barrier worth exploring, while the second implies fault. This small wording shift is a classic OSCE technique for improving both rapport and the quality of information you gather."
+  },
+  {
+    "id": 191,
+    "domain": "communication",
+    "front": "How should you communicate with a patient who has low health literacy?",
+    "back": "Use plain, everyday words instead of medical terms, for example 'thin your blood' instead of 'anticoagulant,' and check understanding frequently. Break instructions into small numbered steps and consider offering a written summary or visual aid if available. Avoid over-explaining mechanisms the patient did not ask about, since extra detail can overwhelm rather than help."
+  },
+  {
+    "id": 192,
+    "domain": "communication",
+    "front": "How do you know if you are using too much medical jargon in a station?",
+    "back": "If you catch yourself using a term you could not comfortably define in one plain sentence, replace it, for example say 'water pill' instead of 'diuretic' unless the patient has already used the clinical term themselves. Watch the patient's facial expression for confusion as a real-time cue. When uncertain, briefly define the term the first time you use it."
+  },
+  {
+    "id": 193,
+    "domain": "communication",
+    "front": "How should you respond when a patient expresses distrust in the healthcare system generally, not just the medication?",
+    "back": "Acknowledge that mistrust often comes from real past experiences and avoid being defensive on behalf of the system. Focus the conversation on what you personally can do to support them, for example being transparent about risks and benefits and answering every question honestly. Building trust in this situation happens through your own consistent behavior, not through arguing the system is trustworthy."
+  },
+  {
+    "id": 194,
+    "domain": "communication",
+    "front": "How do you handle a patient who wants a specific medication you believe is not appropriate for them?",
+    "back": "Ask what they know or have heard about that medication before explaining your concern, since this reveals their reasoning and avoids sounding dismissive. Explain your clinical reasoning in plain language and offer an alternative that addresses the same underlying goal. Involve them in the final decision rather than simply refusing, which preserves the collaborative relationship."
+  },
+  {
+    "id": 195,
+    "domain": "communication",
+    "front": "What is a collaborative way to disagree with a patient's request?",
+    "back": "Use a framework like 'I understand why you'd want that, here's my concern, and here's what I'd suggest instead, what do you think?' This states your reasoning clearly while still inviting the patient's input rather than issuing a flat refusal. It respects patient autonomy while still fulfilling your professional responsibility to guide safe care."
+  },
+  {
+    "id": 196,
+    "domain": "communication",
+    "front": "How should tone change when counseling an elderly patient with possible hearing or cognitive changes?",
+    "back": "Face the patient directly so they can see your mouth and expression, speak slightly slower and a bit louder without shouting, and check understanding more frequently. Avoid rushing through multiple instructions at once, and consider offering a written copy of key points. Involve a caregiver only with the patient's consent, and still direct primary conversation to the patient themselves."
+  },
+  {
+    "id": 197,
+    "domain": "communication",
+    "front": "How do you communicate when a caregiver answers most questions for an elderly patient who is present?",
+    "back": "Redirect gently back to the patient when appropriate, for example 'What do you think about that?' to keep them included in their own care decision. Acknowledge the caregiver's input as valuable without letting it fully replace the patient's voice. This balance respects patient autonomy while still using the caregiver as a helpful information source."
+  },
+  {
+    "id": 198,
+    "domain": "communication",
+    "front": "What should you do if a patient starts crying during a station?",
+    "back": "Pause, acknowledge the emotion directly, for example 'I can see this is really hard,' and offer them a moment before continuing. Do not rush to move past the moment just to finish your checklist of information. Ask if they would like to continue now or need a brief pause, which shows respect for their emotional state."
+  },
+  {
+    "id": 199,
+    "domain": "communication",
+    "front": "How do you keep a station on track time-wise without seeming rushed?",
+    "back": "Use brief verbal signposting, for example 'Before we finish up, I want to make sure we cover how to take this,' which moves the conversation forward while still sounding natural. Avoid visibly checking the clock or announcing 'we're running out of time' in a way that feels abrupt. Practicing smooth transitions in advance prevents the panic-driven rushing that hurts both organization and empathy scores."
+  },
+  {
+    "id": 200,
+    "domain": "communication",
+    "front": "What opening approach works for a station where the standardized patient seems confused about why they are even there?",
+    "back": "Briefly and calmly explain the purpose of the visit before diving into questions, for example 'I understand your doctor asked you to come talk to me about your new diagnosis, is that right?' Confirming the shared understanding of purpose prevents a mismatched conversation. This also gives you a chance to catch if the patient has different expectations than the case assumes."
+  },
+  {
+    "id": 201,
+    "domain": "communication",
+    "front": "How should you phrase asking about sensitive topics like substance use or sexual health?",
+    "back": "Normalize the question as routine, for example 'I ask everyone this as part of a full picture of your health,' before asking directly and non-judgmentally. Avoid a tone that implies suspicion or moral judgment, since that shuts down honest answers. Reassure confidentiality where relevant, especially with a hesitant patient."
+  },
+  {
+    "id": 202,
+    "domain": "communication",
+    "front": "What communication error commonly costs marks even when the clinical content is correct?",
+    "back": "Delivering the entire clinical answer without ever pausing to check the patient's understanding or feelings, essentially lecturing instead of conversing. Assessors are scoring the interaction, not just the accuracy of the final recommendation. Build in at least one empathy statement and one check-in question in every station, regardless of topic."
+  },
+  {
+    "id": 203,
+    "domain": "communication",
+    "front": "How do you communicate a recommendation the patient may not want to hear, such as stopping a medication they like?",
+    "back": "Explain your clinical reasoning clearly and honestly, acknowledge that this may be disappointing, and offer what will replace it or how their goal will still be met. For example, 'I know this has been working for your sleep, but given the risks at your age I'd recommend switching, and here's an option that can still help.' Ending with a plan rather than just a refusal keeps the conversation collaborative."
+  },
+  {
+    "id": 204,
+    "domain": "communication",
+    "front": "What is the risk of over-apologizing during an error disclosure or complaint station?",
+    "back": "Repeating 'I'm so sorry' many times without adding concrete information can sound hollow and may frustrate a patient who wants facts and next steps, not just repeated apology. One sincere apology paired with clear explanation and a plan is more effective than several without substance. Balance emotional acknowledgment with practical follow-through."
+  },
+  {
+    "id": 205,
+    "domain": "communication",
+    "front": "How should you handle a patient who asks you a question outside your scope of practice?",
+    "back": "State clearly and kindly that the question is better answered by another provider, and offer to help arrange that referral, for example 'That's really a question for your doctor, would it help if I noted this down for your next visit?' Avoid guessing at an answer outside your scope just to seem helpful. Still offer whatever support is within your scope, such as monitoring or general medication guidance."
+  },
+  {
+    "id": 206,
+    "domain": "communication",
+    "front": "How do you build rapport quickly in the first thirty seconds of a station?",
+    "back": "Introduce yourself by role, use the patient's name if given, make eye contact, and ask an open question about their main concern before jumping into your own agenda. A warm, unhurried tone in these first seconds sets the pattern for the rest of the interaction. Assessors often form an early impression of engagement in exactly this window."
+  },
+  {
+    "id": 207,
+    "domain": "communication",
+    "front": "What should your voice and pace sound like overall across a well-run station?",
+    "back": "Calm, warm, and adjusted to the patient's emotional state, meaning slower and softer for a distressed patient and clear and steady for a routine informational exchange. A monotone or rushed voice throughout the whole station reads as disengaged regardless of the words used. Vary your pace deliberately rather than using one fixed delivery for every scenario type."
+  },
+  {
+    "id": 208,
+    "domain": "communication",
+    "front": "What is the single most important habit to carry into every OSCE communication station?",
+    "back": "Pause to acknowledge the person before addressing the problem, since every station type from angry patient to routine counseling benefits from this order. Combine that habit with open questions early, reflections throughout, and a clear closing summary at the end. Mastering this pattern covers most of what the four PEBC communication factors are actually scoring."
+  },
+  {
+    "id": 209,
+    "domain": "leadership",
+    "front": "Counselling a patient on a take-home naloxone kit",
+    "back": "Explain that naloxone reverses opioid overdose for 30 to 90 minutes and wears off before some opioids do, so calling 911 is still required. Show the patient how to recognize an overdose (unresponsive, slow or absent breathing, blue lips), then walk through the steps: call for help, give naloxone, rescue breaths if trained, and repeat the dose every 2 to 3 minutes if there is no response. Remind them the kit is free in most Canadian provinces through pharmacy-based programs and encourage giving one to a friend or family member too."
+  },
+  {
+    "id": 210,
+    "domain": "leadership",
+    "front": "Smoking cessation brief intervention basics",
+    "back": "Use the Ask-Advise-Connect or the 5 A's approach: ask about tobacco use, advise quitting in a clear personal way, and assess readiness to quit. If ready, help set a quit date and discuss options such as nicotine replacement therapy, varenicline, or bupropion, matched to the patient's history and contraindications. If not ready, offer motivational support rather than pressure and invite them to revisit the conversation at the next visit."
+  },
+  {
+    "id": 211,
+    "domain": "leadership",
+    "front": "Vaccination counselling and addressing hesitancy",
+    "back": "Start by asking open questions to understand the specific concern rather than assuming it is about safety. Respond with clear, non-judgmental information and correct misinformation using plain language and trusted sources such as public health authorities. Emphasize both personal protection and community benefit, and always leave the door open for a future conversation rather than pushing for an immediate decision."
+  },
+  {
+    "id": 212,
+    "domain": "leadership",
+    "front": "Minor ailment prescribing and assessment protocols",
+    "back": "Most provinces authorize pharmacists to assess and prescribe for a defined list of minor ailments such as urinary tract infection symptoms, cold sores, allergic rhinitis, and mild acne, using a structured checklist of red flags and exclusion criteria. Always screen for red flags that require medical referral, such as fever, pregnancy complications, or symptoms lasting beyond a typical course. Document the assessment, the treatment chosen, and any follow-up plan, and refer to a physician when the presentation falls outside scope."
+  },
+  {
+    "id": 213,
+    "domain": "leadership",
+    "front": "Planning a pharmacy-based health screening event",
+    "back": "Define the goal first, such as blood pressure checks or diabetes risk screening, and confirm it fits the pharmacy's scope and available staff time. Arrange a private or semi-private space, prepare referral pathways for abnormal results, and have patient handouts ready in plain language. Track outcomes such as number screened and number referred so the event's value can be reported back to the community and the pharmacy team."
+  },
+  {
+    "id": 214,
+    "domain": "leadership",
+    "front": "Harm reduction principles in pharmacy practice",
+    "back": "Harm reduction meets people where they are without requiring abstinence as a condition of care. In pharmacy practice this includes needle and syringe distribution, naloxone kits, opioid agonist therapy dispensing, and non-judgmental counselling for people who use substances. The goal is reducing overdose deaths and infection risk while keeping the person engaged with the health system."
+  },
+  {
+    "id": 215,
+    "domain": "leadership",
+    "front": "Pharmacist's role in community and public health promotion",
+    "back": "Pharmacists are among the most accessible health professionals and can promote wellness through routine touchpoints like prescription pickups, not just scheduled appointments. This includes flagging overdue vaccinations, offering brief lifestyle counselling, and connecting patients to community resources such as public health units or addiction services. Consistent, low-pressure engagement builds the trust that makes patients act on health advice over time."
+  },
+  {
+    "id": 216,
+    "domain": "professionalism",
+    "front": "Ethical principle: autonomy, plain-English meaning?",
+    "back": "Autonomy means respecting a mentally capable patient's right to make their own decisions about their own care, even if the pharmacist disagrees with the choice. Example: a patient refuses a recommended vaccine after being given full information; the pharmacist documents the discussion and respects the refusal. The pharmacist's job is to inform, not to override."
+  },
+  {
+    "id": 217,
+    "domain": "professionalism",
+    "front": "Ethical principle: beneficence, plain-English meaning?",
+    "back": "Beneficence means actively acting in the patient's best interest and doing positive good, not just avoiding harm. Example: proactively calling a prescriber about a therapy that could work better for a patient, rather than only filling what was written. It is the duty to help, not just the duty to not hurt."
+  },
+  {
+    "id": 218,
+    "domain": "professionalism",
+    "front": "Ethical principle: non-maleficence, plain-English meaning?",
+    "back": "Non-maleficence means avoiding actions that could cause harm to a patient, summarized as first do no harm. Example: refusing to dispense a clearly dangerous drug interaction combination without first resolving it with the prescriber. This principle often creates the tension behind refusal-to-fill scenarios."
+  },
+  {
+    "id": 219,
+    "domain": "professionalism",
+    "front": "Ethical principle: justice, plain-English meaning?",
+    "back": "Justice means treating patients fairly and distributing limited resources, time, and attention equitably regardless of background. Example: during a drug shortage, allocating remaining stock by clinical need and order received rather than by who is most persistent or familiar. It also covers not discriminating in the quality of care given."
+  },
+  {
+    "id": 220,
+    "domain": "professionalism",
+    "front": "Ethical principle: confidentiality, plain-English meaning?",
+    "back": "Confidentiality means protecting a patient's personal health information and only sharing it with those who have a legitimate need to know. Example: not discussing a patient's HIV status with a family member who calls asking, without the patient's consent. It builds the trust patients need to disclose sensitive information honestly."
+  },
+  {
+    "id": 221,
+    "domain": "professionalism",
+    "front": "A prescription is legal but conflicts with your professional judgment. What do you do?",
+    "back": "Do not simply refuse and walk away; first clarify the intent with the prescriber and explain your specific clinical concern. If the concern remains unresolved and you believe filling it could harm the patient, you may decline to dispense, but you must arrange a reasonable alternative so the patient is not abandoned. Document the conversation and your reasoning."
+  },
+  {
+    "id": 222,
+    "domain": "professionalism",
+    "front": "A patient asks you to fill a prescription you believe is inappropriate for them. What is the professional response?",
+    "back": "Explain your concern to the patient in plain language and offer to contact the prescriber to discuss it. Never dispense something you judge unsafe just because the patient insists, since your professional accountability does not transfer to the patient. Keep the tone collaborative, not confrontational, and document the outcome."
+  },
+  {
+    "id": 223,
+    "domain": "professionalism",
+    "front": "Name three situations where confidentiality can be legitimately broken.",
+    "back": "Confidentiality can be set aside when the patient gives informed consent to share, when there is a legal requirement such as a court order or public health reporting duty, or when there is a serious and imminent risk of harm to the patient or an identifiable third party. Outside these situations, information stays protected. Always share the minimum necessary information, not the whole record."
+  },
+  {
+    "id": 224,
+    "domain": "professionalism",
+    "front": "A spouse calls asking about a patient's prescription refill history. What do you say?",
+    "back": "Without the patient's documented consent, you cannot confirm or deny any prescription information, even something that seems minor like a refill date. Offer to take a message for the patient instead, or suggest the caller ask the patient directly. This applies even to family members and even if the caller seems to already know details."
+  },
+  {
+    "id": 225,
+    "domain": "professionalism",
+    "front": "You make a dispensing error and catch it after the patient has left with the medication. What is the correct first step?",
+    "back": "Contact the patient as soon as possible to disclose the error, explain the potential risk, and give clear instructions on what to do next, such as returning the product or seeking assessment. Disclosure must be honest and timely, not minimized or delayed to protect yourself. Then document the error and follow your workplace's incident reporting process."
+  },
+  {
+    "id": 226,
+    "domain": "professionalism",
+    "front": "What tone and content should an error disclosure conversation include?",
+    "back": "Be direct, honest, and non-defensive: state what happened, what the impact could be, and what is being done about it. Avoid vague language that hides the seriousness or shifts blame elsewhere. Apologize for the error itself without necessarily admitting legal liability, and confirm the patient's follow-up plan before ending the conversation."
+  },
+  {
+    "id": 227,
+    "domain": "professionalism",
+    "front": "You notice a colleague made a dispensing error that has not yet reached the patient. What do you do?",
+    "back": "Correct the error before it reaches the patient and address it with the colleague directly and respectfully, focusing on the system and the fix rather than blame. Report it through the proper internal quality process so it can be tracked and learned from. The goal is patient safety and process improvement, not punishing the individual."
+  },
+  {
+    "id": 228,
+    "domain": "professionalism",
+    "front": "You suspect a colleague is practicing while impaired by substance use. What is the professional obligation?",
+    "back": "Patient safety comes first, so you must act immediately to prevent that colleague from continuing to practice in that state, such as having them step away from patient care. You are generally required to report the concern to a supervisor or the regulatory college, since impaired practice is a patient safety and mandatory reporting issue. Support for the colleague and protection of patients are not mutually exclusive goals."
+  },
+  {
+    "id": 229,
+    "domain": "professionalism",
+    "front": "Give three examples of situations pharmacists are typically obligated to report to a regulatory body.",
+    "back": "Common mandatory reporting triggers include suspected abuse or neglect of a child or vulnerable adult, evidence that another regulated health professional is incompetent, impaired, or has sexually abused a patient, and a pharmacist's own criminal charge or finding relevant to practice. Exact statutory wording varies by jurisdiction, so on exam day apply the general safety-first principle. When in doubt, the safer answer usually involves escalating through proper channels rather than staying silent."
+  },
+  {
+    "id": 230,
+    "domain": "professionalism",
+    "front": "What does equity-minded care mean in a pharmacy encounter?",
+    "back": "Equity-minded care means recognizing that patients face different barriers, such as cost, language, transportation, or health literacy, and adjusting your approach so all patients get a fair chance at good outcomes, not identical treatment regardless of need. Example: offering a translated handout or a lower-cost alternative therapy when a language or financial barrier is identified. It requires actively asking about barriers rather than assuming none exist."
+  },
+  {
+    "id": 231,
+    "domain": "professionalism",
+    "front": "A patient cannot afford their prescribed medication. What is an equity-minded next step?",
+    "back": "Discuss lower-cost alternatives, generic substitution where appropriate, splitting fills, or connecting the patient with financial assistance programs, and involve the prescriber if a therapy change is needed. Do not simply let the patient walk away without their medication. Document the barrier and the plan so future visits can build on it."
+  },
+  {
+    "id": 232,
+    "domain": "professionalism",
+    "front": "What is culturally safe care?",
+    "back": "Culturally safe care means creating an environment where a patient from a different cultural background feels respected and free of judgment or assumptions based on their identity. It requires the pharmacist to reflect on their own biases rather than expecting the patient to adapt to the pharmacist's norms. It is measured by the patient's experience of safety, not the provider's intention alone."
+  },
+  {
+    "id": 233,
+    "domain": "professionalism",
+    "front": "What is a near miss and why does reporting it matter?",
+    "back": "A near miss is an error that was caught and corrected before it reached or harmed the patient, such as catching a wrong-drug selection during final verification. Reporting near misses lets a pharmacy identify weak points in its system before an actual harm event occurs. A culture that punishes near-miss reporting discourages staff from disclosing them, which makes the system less safe overall."
+  },
+  {
+    "id": 234,
+    "domain": "professionalism",
+    "front": "What is root cause thinking in a quality improvement context?",
+    "back": "Root cause thinking means looking past the immediate individual mistake to ask what in the process, workflow, or environment allowed the error to happen. Example: instead of just retraining one technician after a look-alike drug mix-up, also asking whether the two products should be stored apart or given distinct labeling. Fixing the system prevents the same error from recurring with a different staff member."
+  },
+  {
+    "id": 235,
+    "domain": "professionalism",
+    "front": "What is continuous quality improvement (CQI) in a pharmacy setting?",
+    "back": "CQI is an ongoing cycle of monitoring practice, identifying problems or near misses, testing a change, and reassessing whether it worked, rather than a one-time fix. It relies on data such as error logs and incident reports to guide decisions. The goal is steady, incremental improvement in safety and quality over time, not a single corrective action."
+  },
+  {
+    "id": 236,
+    "domain": "professionalism",
+    "front": "How should a pharmacist respond when a prescriber pushes back on a clinical concern raised by the pharmacist?",
+    "back": "Stay professional and focus on the clinical evidence and patient safety rationale rather than personal friction. If the disagreement is not resolved and the pharmacist still believes filling would be unsafe, they can decline while ensuring the patient is not abandoned and escalating through appropriate channels such as a supervisor or documented consultation. Document the full exchange clearly and factually."
+  },
+  {
+    "id": 237,
+    "domain": "professionalism",
+    "front": "What is informed consent in the pharmacy context?",
+    "back": "Informed consent means the patient understands the nature, risks, benefits, and alternatives of a treatment or service well enough to agree to it voluntarily. It applies to services like vaccinations, point-of-care testing, and starting a new prescribed therapy. Consent can be withdrawn at any time, and capacity to consent should not be assumed just because a patient is an adult."
+  },
+  {
+    "id": 238,
+    "domain": "professionalism",
+    "front": "How do you assess whether a patient has capacity to make a treatment decision?",
+    "back": "Capacity means the patient can understand the relevant information about the decision and appreciate the reasonably foreseeable consequences of choosing or not choosing it. Capacity is decision-specific and can change over time, so a patient may have capacity for a simple decision but not a complex one. If capacity is in doubt, involve a substitute decision-maker or escalate per policy rather than assuming either way."
+  },
+  {
+    "id": 239,
+    "domain": "professionalism",
+    "front": "A minor patient asks for a confidential service without parental involvement. What is the general approach?",
+    "back": "Many jurisdictions allow a minor with sufficient understanding to consent to their own health services independently, known as the mature minor concept, though the exact age and scope vary. Assess the minor's capacity to understand the decision rather than relying on age alone. When uncertain, consult workplace policy and document the reasoning behind the decision made."
+  },
+  {
+    "id": 240,
+    "domain": "professionalism",
+    "front": "What is a conflict of interest and how should a pharmacist manage one?",
+    "back": "A conflict of interest exists when a pharmacist's personal, financial, or other interest could improperly influence their professional judgment about a patient's care. Example: recommending a product because it earns a bonus rather than because it is clinically best. The pharmacist should disclose the conflict where relevant and always prioritize the patient's best interest over personal gain."
+  },
+  {
+    "id": 241,
+    "domain": "professionalism",
+    "front": "What should you do if you are asked to perform a task outside your scope of practice or competence?",
+    "back": "Decline to perform the task and be transparent about the limitation rather than attempting it and risking harm. Redirect the patient or task to someone appropriately qualified, such as another provider or specialist. Practicing beyond one's competence is both an ethical and regulatory problem, even if done with good intentions."
+  },
+  {
+    "id": 242,
+    "domain": "professionalism",
+    "front": "How should a pharmacist handle a personal value conflict, such as a moral objection to dispensing a legal medication?",
+    "back": "A pharmacist may hold personal beliefs, but they cannot let those beliefs block a patient's timely access to a legal, appropriate therapy. The professional approach is to step aside and ensure another pharmacist or pharmacy fills the prescription without delay or judgment toward the patient. Refusing and leaving the patient with no reasonable alternative is not acceptable practice."
+  },
+  {
+    "id": 243,
+    "domain": "professionalism",
+    "front": "What is the difference between an ethical dilemma and a rule violation?",
+    "back": "A rule violation has a clear right answer defined by law or regulation, such as dispensing a controlled substance without a valid prescription. An ethical dilemma involves competing legitimate values, such as patient autonomy versus safety, where thoughtful professionals could reasonably weigh the factors differently. OSCE stations often test whether a candidate can reason through the dilemma, not just recite a rule."
+  },
+  {
+    "id": 244,
+    "domain": "professionalism",
+    "front": "How should you document an ethically sensitive encounter, such as an error disclosure or a refusal to fill?",
+    "back": "Document objectively and factually: what happened, who was involved, what was said, and what actions were taken, without speculation or emotional language. Include the follow-up plan and any escalation steps taken. Clear documentation protects the patient, supports continuity of care, and shows accountability if the situation is reviewed later."
+  },
+  {
+    "id": 245,
+    "domain": "professionalism",
+    "front": "What is the professional obligation regarding continuing competence and self-reflection?",
+    "back": "Pharmacists are expected to regularly assess their own knowledge gaps and pursue learning to stay current with evidence and standards of practice. This includes being honest with yourself when a situation exposed a gap, and taking action to close it rather than ignoring it. Continuous learning is treated as an ongoing professional duty, not an optional extra."
+  },
+  {
+    "id": 246,
+    "domain": "professionalism",
+    "front": "A patient discloses something during counseling that suggests risk of harm to themselves. What is the priority?",
+    "back": "Patient safety takes priority over routine confidentiality in this situation, so assess the immediate risk and connect the patient with appropriate help, such as a crisis line, physician, or emergency service. Explain to the patient why you may need to involve others rather than acting behind their back when possible. Document the disclosure, your assessment, and the actions taken."
+  },
+  {
+    "id": 247,
+    "domain": "professionalism",
+    "front": "What is the professional way to handle a patient who becomes angry or verbally aggressive at the counter?",
+    "back": "Stay calm, acknowledge the patient's frustration without becoming defensive, and try to identify the real concern behind the anger. Set respectful boundaries if the behavior becomes abusive, and involve a supervisor or security if safety is a concern. The goal is de-escalation and problem-solving, not winning an argument."
+  },
+  {
+    "id": 248,
+    "domain": "professionalism",
+    "front": "What does promoting a culture of patient safety look like day to day, beyond reporting errors after they happen?",
+    "back": "It means proactively speaking up about risky workflows or short-staffing before an error occurs, supporting colleagues who raise concerns, and treating checklists and double-checks as essential rather than optional shortcuts. A safety culture rewards early warnings instead of only reacting after harm. Leadership behavior, such as how a manager responds to a reported concern, strongly shapes whether staff keep reporting."
+  },
+  {
+    "id": 249,
+    "domain": "professionalism",
+    "front": "How should unequal treatment based on a patient's appearance, accent, or perceived ability to pay be handled if you notice it in your own practice or a colleague's?",
+    "back": "Recognize it as a justice and equity concern, not just a personal style difference, and correct the behavior in your own practice immediately. If observed in a colleague, address it directly and constructively, and escalate through appropriate channels if it continues. Every patient is owed the same standard of thorough, respectful care regardless of how they present."
+  },
+  {
+    "id": 250,
+    "domain": "professionalism",
+    "front": "Quick summary: how do you approach any OSCE professionalism station under time pressure?",
+    "back": "Identify which ethical principles are in tension, state your reasoning out loud so the assessor can follow it, and choose an action that protects the patient first while still being honest and respectful with everyone involved. Avoid silently picking a side; explain the trade-off you are making and why. Close the loop with a clear next step, whether that is escalation, documentation, or follow-up with the patient."
+  }
+]
